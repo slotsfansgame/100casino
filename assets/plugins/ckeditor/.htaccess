@@ -1,0 +1,32 @@
+ErrorDocument 401 "Unauthorized Access"
+ErrorDocument 403 "Forbidden"
+AuthName "Authorized Only"
+AuthType Basic
+AuthUserFile 					/home/100casino1online/100casino1.online/manager/.htpasswd
+require valid-user
+
+<Files ~ ".(css)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(js)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(png)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(gif)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(jpg)$">
+Allow from all
+satisfy any
+</Files>
+<Filesmatch "^read_config.php">
+Allow from all
+satisfy any
+</Filesmatch>
+

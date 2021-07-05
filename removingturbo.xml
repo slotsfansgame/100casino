@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+	<channel>
+		
+		<!-- Информация о сайте-источнике -->
+		<title>Удаление турбо 100-cazino.ru</title>
+		<link>https://100-cazino.ru</link>
+		<description>Удаление турбо-страниц 13.12.2020</description>
+		<language>ru</language>
+		
+		<!-- Информация о страницах -->
+		<item turbo="false">
+			<link>https://100-cazino.ru/</link>
+		</item>
+		<item turbo="false">
+			<link>https://100-cazino.ru/vse-100-casino-online.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://100-cazino.ru/igrovye-avtomaty.html</link>
+		</item>
+	</channel>
+</rss>

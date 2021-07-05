@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    font-size: 10px;
+}
+body {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+#layout {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+html.android #layout {
+    /*display: block;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+html.android .promocontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+.promocontent{
+    position: relative;
+    z-index: 4;
+
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    width: 33em;
+    border-radius: 1em;
+    box-sizing: border-box;
+    padding: 1em;
+    background: rgba(224,224,224,.95);
+    overflow: hidden;
+    bottom: -15em;
+    transition: 0.4s;
+    z-index: 5;
+    left: 50%;
+    margin-left: -16.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.popup.show {
+    bottom: 15px;
+}
+.popup_close_btn {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: url('../img/close.svg') 0 0 no-repeat;
+    background-size: 2em 2em;
+    cursor: pointer;
+    top: 1.2em;
+    right: 1.5em;
+    user-select: none;
+    outline: none;
+}
+.popup_close_btn:hover,
+.popup_close_btn:active {
+    opacity: 0.75;
+}
+.popup_logofar {
+    background:  url('../img/phar-icon.jpg') 0 0 no-repeat;
+    background-size: 6em 6em;
+    width: 6em;
+    height: 6em;
+    border-radius: 0.6em;
+    margin-right: 1em;
+    flex: 0 0 6em;
+}
+.popup_txt {
+    flex: 1 0 0;
+    margin-right: 2.75em;
+}
+.popup_title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 0.25em;
+}
+.popup_subtitle {
+    font-size: 1.3em;
+    color: #333333;
+    padding-bottom: 0.75em;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.popup_download_btn {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    height: 1.9230769230em;
+    text-transform: uppercase;
+    line-height: 1.9230769230em;
+    font-family: 'Roboto', Arial, sans-serif;
+    width: 14em;
+    border-radius: 0.7em;
+}
+.btn_blue {
+    background: #006DFF;
+    color: #fff;
+}
+.lnk_blue {
+    color: #006DFF;
+    text-decoration: underline;
+}
+
+
+
+@media all and (max-width: 500px) and (orientation: portrait) {
+    .popup {
+        left: 15px;
+        right: 15px;
+        margin-left: 0;
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 350px) {
+
+    .popup_txt {
+        font-size: 9px;
+        margin-right: 3em;
+    }
+}

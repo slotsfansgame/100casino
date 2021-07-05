@@ -1,0 +1,800 @@
+.copyright{font-size: 8pt;
+    border-radius: 5pt;
+    background: #1d1b1b;
+    padding: 5pt;
+    line-height: 14pt;}
+.copyright div {text-align: center;
+    color: grey;}
+
+.faqmain li {padding-bottom:10pt;}
+.faqmain li .closed {color:white;}
+.date {color:white}
+
+/*свернуть развернуть*/
+.block-closed {
+	height: 210px; /*размер скрытого блока*/
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10pt;
+}
+
+.block-opened {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.block-button-wrap {
+	bottom: 0; 
+	position: absolute; 
+	padding: 10px 0 5px;
+	text-align: center;
+	width:100%;
+	background: linear-gradient(to top,red 0%,red 20%,transparent 100%);
+}
+
+.block-button {
+border: none;
+    font-size: 24px;
+    background: 0 0;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*свернуть развернуть*/
+
+.video1 {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    border: 1px solid #000;
+  margin: 0 auto;
+}
+.video1-play {
+    background-image: url(/images/play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -60px;
+    position: absolute;
+    border-radius: 21px;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+.video1-play:hover {background-image: url(/images/play-h.png)}
+
+.opisaniye29 {display:none}
+
+
+div.ssilkacasino {    text-align: center;    margin: 10pt;}
+span.ssilkacasino,.ssilkacasino span {background-color: #ff0000;border-radius: 10px;padding: 10px;}
+.ssilkacasino a, .ssilkacasino2 a {color: white !important;}
+
+div.ssilkacasino2 {    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px auto 40px;}
+
+.sitemap ul li { margin: 5px 20px; list-style: disc; list-style-image: url(/images/list2.gif); }
+.sitemap ul li a{ color: #33799B}
+.sitemap ul li a:hover{ color:#000}
+
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+
+/* Global properties ======================================================== */
+
+body{ background: url(../images/bg.jpg) center 0 no-repeat #000; border:0; font:14px Arial, Helvetica, sans-serif; color:#9b9b9b; line-height:25px; min-width:100%;}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+/* Global Structure ============================================================= */
+
+.main {	margin: 0 auto;	width: 100%; }
+
+/*.bg1{ background:url(../images/bg_menu.png) 0 0 repeat-x}*/
+
+/* вид CSS кнопки */
+.del { display: none; }
+.del:not(:checked) + label + * { display: none; }
+.del:not(:checked) + label,
+.del:checked + label {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 2px;
+  color: #fff;
+  background: red;
+  cursor: pointer;
+}
+.del:checked + label {
+  background: #5bc0de;
+}
+/* КОНЕЦ вид CSS кнопки */
+
+/* ============================= main layout ====================== */
+
+a{ color:#e1c679; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+p.logo{ padding:0px 0 5px 0;width:360px;margin:0 auto}
+h1{ font-size:18pt; color:#fff; line-height:1.2em; padding:20px 0 14px 0; font-weight:400; margin-left:-1px;text-indent: 7pt;}
+h2{ font-size:17pt; color:#fff; line-height:1.2em; padding:20px 0 14px 0; font-weight:400; margin-left:-1px;text-indent: 7pt;}
+h2#welcom{ font-size:61px; line-height:1.2em; padding:0 0 9px 0; letter-spacing:-5px; margin-left:-5px;}
+h2 strong{ font-weight:700; color:#7532a9;}
+h3{ font-size:16pt; line-height:1.2em; color:#fff; padding:0 0 8px 0; font-weight:400; letter-spacing:-1px;text-indent: 7pt;}
+h4{ font-size:16pt; color:#7f7f7f; line-height:1.2em; font-weight:400; padding:12pt 0 0 0;text-indent: 7pt;}
+p{ padding-bottom:5pt;text-indent: 7pt;}
+strong {color:white}
+#content p{}
+#content p img {width:100%}
+p img{margin-bottom:10pt;border-radius: 10px;border: 2px solid #edbd53;max-width:95%}
+li img{border-radius: 10px;border: 2px solid #edbd53;}
+.news img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:90%;height: 150px;margin: 0 10px 5px 10px}
+.news2 img{border-radius: 10px;border: 1px solid red;float:left;width:90%;height: 150px;margin: 0 10px 5px 10px}
+p#ua-casino {font-size:18px;font-weight:400; color:#7532a9;}
+
+@media (min-width: 480px){
+	.news img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:45%;margin: 0 10px 5px 10px}
+	.news2 img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:45%;margin: 0 10px 5px 10px}
+	#content p{width:95%}
+}
+
+/* ============================= header ====================== */
+
+
+#logo{ display: block;text-indent: -9999px;background: url(../images/logo.png) 0 0 no-repeat;height: 105pt;background-size: 270pt;margin: 0 auto;max-width:100%}
+
+.menu-up { width:90%; overflow:hidden;height: 100pt;}
+.menu-up > li { float:left;background: #565151;border-radius: 10pt;margin: 4pt;}
+.menu-up > .active { float:left; }
+.menu-up > li+li,.menu-up > li+li .active {background-position: 50% -180px !important;}
+.menu-up > li+li+li,.menu-up > li+li+li .active {background-position: 50% -360px !important;}
+.menu-up > li+li+li+li,.menu-up > li+li+li+li .active {background-position: 50% -540px !important;}
+.menu-up > li+li+li+li+li,.menu-up > li+li+li+li+li .active {background-position: 50% 0 !important;}
+
+.menu-up > li > a{ font-size:18pt; color:white; text-decoration:none; text-align:center;margin: 0 auto; display: table-cell;/*vertical-align: middle;*/padding: 5pt; font-weight: bold; letter-spacing: -1px;}
+.menu-up > .active > a{color:red}
+/*.menu-up > .active {color:red;background:url(../images/fishka-menu-active.png) right no-repeat}*/
+.menu-up > li > a:hover{ }
+
+.menu-up > li {margin-bottom:0}
+@media (min-width: 480px){
+.menu-up { height: 60pt}
+	}
+/* ============================= content ====================== */
+.poiskyandex {
+	    width: 90%;
+float:left;
+	max-width: 500px;
+}
+.ya-site-form__input-text, .ya-site-form__search-input-layout-l,.ya-site-form__input {padding: 5pt; !important}
+
+
+
+.casavomati {padding:0 0 140px 0}
+
+/* ============================= obozri ====================== */
+
+.allnews7 {}
+.allnews72 {text-align:center;}
+
+.raiting {line-height:18px;display: inline-block;text-indent: 0px;font-weight: normal;}
+.allobzor {float:none;margin: 0;}
+.obzor {border: 3px solid #DEC852;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    text-indent: 0px;}
+.obzor a {text-decoration:none;color:white;font-weight: normal;}
+.obzor a:hover {color:#DEC852; text-decoration:underline;font-weight: normal;}
+.igrat {border: 3px solid #DEC852;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+	text-indent: 0px;}
+.igrat2 {border: 1px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+	text-indent: 0px;}
+.igrat a {text-decoration:none;color:white;font-weight: normal;}
+.igrat2 a {text-decoration:none;color:red;font-weight: normal;}
+.igrat a:hover {color:#DEC852; text-decoration:underline;font-weight: normal;}
+.igrat2 a:hover {color:red; text-decoration:underline;font-weight: normal;}
+
+#golosovat {display: block;
+    width: 95px;
+    padding: 5px;
+    margin-top: 15px;
+	margin-bottom:5px;
+    font-size: 18px;
+    border: solid 1px;}
+#golosovat a:hover {color:white; text-decoration:underline;font-weight: normal;}
+.forma-obzor {border-radius:8px;padding: 5px}
+.forma-obzor-comments {border-radius:8px;padding: 5px;min-width: 98%;}
+#thanktpl {font-size: 20px;color: white;text-align: center;margin-bottom: 10pt;}
+#respond {color: white;clear:both}
+
+.fotocoment,.fotocoment2 {margin: 10pt auto;clear: both;padding-top: 10pt;}
+.fotocoment2 {width: 90%;margin-top: -15pt;padding-top: 0;}
+.fotocoment img,.fotocoment2 img{float:left;padding: 5pt;border-radius: 10pt;}
+.commentsgamer {padding: 5px !important;overflow: hidden;display: block;line-height: 16pt;}
+.comname {font-weight: 700;color: rgba(255,255,255,0.6);}
+.comdata {font-size: 10pt;color: rgba(255,255,255,0.5);}
+.comdescrip {font-size: 11pt;color: white;}
+.comments-fon {padding: 5pt;background: #333333;border-radius: 10pt;margin: 5pt;overflow: scroll;height: 750px;}
+
+li .raiting img {
+margin: 0; 
+border-radius: 0; 
+border: none; 
+}
+ol.obzori,ol.obzori2 {counter-reset:li;
+    padding:0;
+    list-style:none;
+}
+ol.obzori li{list-style-position: inherit;
+    text-indent: 0;
+    margin: 0;
+	padding-bottom: 41px;
+    color: white;
+counter-reset:  item;}
+.obzori li {padding: 0 8px;
+    font-weight: bold;}
+.obzori2 li {
+	padding: 0;
+    font-weight: bold;}
+ol.obzori2 li{list-style-position: inherit;
+    text-indent: 0;
+    padding-top: 41px;
+    margin: 0;
+    color: white;
+	counter-reset:  item;}
+
+ol.obzori li:before{content: counter(li);
+    counter-increment: li;
+    padding: 5px 10px 5px 10px;
+    font-size: 15pt;
+    border: 2px solid;
+    border-radius: 15pt;}
+
+.casino-best {font-size: 18pt;
+    color: #FCC21E;
+    line-height: 1.2em;
+    padding: 20px 0 14px 0;
+    font-weight: 400;
+    margin-left: -1px;
+    text-indent: 7pt;
+    text-align: center;}
+
+#obzornews {display: inline-block;
+	width: 93%;
+    margin-left: 40px;
+    margin-top: -40px;}
+#obzornews2 {display: inline-block;
+	width: 93%;
+    margin-left: 15px;
+    margin-top: -40px;
+	margin-bottom: 10px;}
+
+@media (min-width: 480px){
+	.obzor {padding: 5px;font-size: 18px;}
+	.igrat, .igrat2 {padding: 5px;font-size: 18px;}
+}
+
+/* ============================= news ====================== */
+.pagination a {text-decoration:underline;} 
+.pagination a:hover {text-decoration:none;} 
+.pagination .ditto_currentpage {color:#fff; background-color:orange; padding: 1px 3px; margin:2px;  font-weight:bold; } 
+.pagination .ditto_previous_link, .pagination .ditto_next_link{margin:0 10px;} 
+.pagination .ditto_page{ padding: 2px 5px;}
+
+/* ============================= all ====================== */
+.listmain {width:100%; height:1px; clear:both;display:inline}
+.listmain2 {width:100%; height:1px; margin: auto;display:inline}
+.list-img {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img-z4 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img-z3 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img-rus {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-rus-z4 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-rus-z3 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa-z4 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa-z3 {width: 120pt;height: 155pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img img,.list-img-z4 img,.list-img-z3 img,.list-img-rus img,.list-img-rus-z4 img,.list-img-rus-z3 img,.list-img-usa img,.list-img-usa-z4 img,.list-img-usa-z3 img{ width: 101pt;height: 101pt;padding: 13px 14px 10px 13px;border-radius: 60pt;}
+.list-img img:hover,.list-img-z4 img:hover,.list-img-z3 img:hover,.list-img-rus img:hover,.list-img-rus-z4 img:hover,.list-img-rus-z3 img:hover,.list-img-usa img:hover,.list-img-usa-z4 img:hover,.list-img-usa-z3 img:hover{opacity: 0.5;}
+
+
+/* ============================= avtomati ====================== */
+.gameslot {background:url(../images/strelka-m.png?2) no-repeat 100%}
+.gameslot iframe {width: 90% !important;height: 300px;}
+.knopkasloti {text-align:center;font-size: 24px;padding: 20px 0;line-height:20pt}
+.knopkasloti a {color:black;text-decoration: none;}
+.mobile-knopka {background: url(../images/knopka-igrat.png) no-repeat;height: 45px;margin: 0 auto;width: 261px;padding-top: 20px;}
+
+.avtomatispisok li {width: 110pt;height: 135pt;float: left;text-align: center;padding: 0 10px 0 0;background: url(/images/cazino100-sloti-vstavka-mob.png) no-repeat;position: relative;}
+.avtomatispisok li:hover {background: transparent;}
+
+.imgavt img{border: 1px solid #e1c679;width: 100%;margin: 0 10px 5px 0;padding: 0;height: 120px;}
+.imgavt a{text-decoration:none}
+.imgavt a:hover{opacity: 0.5;}
+.textavt {font-size:18px; color:#e1c679}
+.stranici {padding: 10px 15px;display: inline-block; border: 3px solid #DEC852;border-radius: 10px;     margin: 0 10px 5px;}
+.stranici a {text-decoration: none; color:white;}
+.stranici a:hover {text-decoration: underline; color:#e1c679;}
+#imgicon {position: absolute;
+    border: none;
+    left: 80px;
+    height: 70px;
+    width: 70px;
+top: -1px;}
+@media (min-width: 480px){
+.gameslot {background:url(../images/strelka-m.png?1) no-repeat 95%}
+}
+/* ============================= poker ====================== */
+.listmain3 {width:100%; height:1px; clear:both;display:inline}
+.listmain4 {width:100%; height:1px; margin: auto;display:inline}
+.list-img3 {width: 230pt;height:360pt; float:left;background:url(../images/flag-rus.png) no-repeat 20% 7px,url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-ukr.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3-usa {width: 230pt;height:360pt; float:left;background:url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-ukr.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3-rus {width: 230pt;height:360pt; float:left;background:url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-rus.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3 img,.list-img3-usa img,.list-img3-rus img {width: 217pt;height: 99pt;padding:37px 22px 25px 10px;}
+.list-img3 img:hover,.list-img3-usa img:hover,.list-img3-rus img:hover {opacity: 0.5;}
+
+.shortlist {margin:0 10pt 0 25pt; color:white}
+.shortlist h2 {text-align: center;}
+ul.menulist {list-style-image: url(../images/fishka-menu-small.png);}
+ul.menulist li {line-height: 15pt;}
+span.opisaniyeshort {font-weight:bold;text-decoration: underline;}
+.shortlist-main {font-weight:bold;color:#e1c679;font-size: 12pt;display: inline-block;}
+/* ============================= ruletka ====================== */
+.list-img4 {width: 120pt;height: 155pt; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka-ruletka-mob.png) no-repeat;text-align:center;}
+.list-img4-rus {width: 120pt;height: 155pt; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka-ruletka-mob.png) no-repeat;text-align:center;}
+.list-img4-usa {width: 120pt;height: 155pt; float:left;background:url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka-ruletka-mob.png) no-repeat;text-align:center;}
+.list-img4 img,.list-img4-rus img,.list-img4-usa img{ width: 90pt;padding:22px 16px 18px 16px;border-radius: 60pt;}
+.list-img4 img:hover,.list-img4-rus img:hover,.list-img4-usa img:hover{opacity: 0.5;}
+
+/* ============================= stavki ====================== */
+.list-img5 {width: 120pt;height: 155pt;float:left;background:url(../images/flag-rus.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/flag-ukr.png) no-repeat 100% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;text-align:center;}
+.list-img5-rus {width: 120pt;height: 155pt; float:left;background:url(../images/flag-rus.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;text-align:center;}
+.list-img5-usa {width: 120pt;height: 155pt; float:left;background:url(../images/flag-ukr.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;text-align:center;}
+.list-img5 img,.list-img5-rus img,.list-img5-usa img{width: 100pt;height: 100pt;padding: 20px 6px 5px 6px;border-radius: 25pt;}
+.list-img5 img:hover,.list-img5-rus img:hover,.list-img5-usa img:hover{opacity: 0.8;}
+
+
+
+   
+
+
+
+.box{background:url(../images/bg_content.png) repeat; padding:10px 5px 20px 5px; overflow:hidden;border-radius: 20px;}
+#page1 .box{ padding-top:10px;}
+
+#content{ padding-bottom:18px;width: 92%;}
+#page2 #content{ padding-bottom:50px;}
+#page5 #content{ padding-bottom:40px;}
+
+.pad_left1{ padding-left:60px}
+.pad_bot1{ padding-bottom:15px;}
+.pad_bot2{ padding-bottom:30px;}
+.marg_right1{ margin-right:40px}
+#page2 .pad_bot1{ padding-bottom:40px;}
+#page5 .pad_bot1{ padding-bottom:10px;}
+#page6 .pad_left1{ padding-left:36px;}
+#page6 .pad_bot1{ padding-bottom:10px;}
+
+.color1{ color:#fff}
+.color2{ color:#7532a9}
+
+.link1{ color:#fff; text-decoration: none}
+.link1:hover{ color:#7532a9}
+
+.link2{ color:#7532a9; text-decoration: none}
+.link2:hover{ text-decoration:underline}
+
+.dropcap_1{ float:left; margin-top:-4px; width:110px; height:95px; background:url(../images/bg_dropcap.png) 0 0 no-repeat; margin-right:7px; font-size:48px; color:#fff; line-height:1.2em; text-align:center; font-weight:bold; letter-spacing:-4px; padding-top:15px;}
+.dropcap_1 span{ display:block; font-size:19px; line-height:1.2em; font-weight:400; letter-spacing:-1px; margin-top:-11px}
+.dropcap_1 cufontext{ display:block; font-size:19px; line-height:1.2em; font-weight:400; letter-spacing:-1px; margin-top:-11px}
+
+#gallery1{ height: 225px !important; margin-left:-7px;}
+#gallery1 li{ overflow:inherit !important; }
+
+.prev, .next{ float:right; background:url(../images/markers.jpg) 0 0 no-repeat; width:39px; height:39px; margin-right:-3px;}
+.next{ background-position:right 0}
+.prev:hover{ background-position: 0 bottom}
+.next:hover{ background-position: right bottom}
+
+
+.list1{}
+.list1 li{ line-height:25px;}
+.list1 li a{ color:#fff; text-decoration:none; padding-left:14px; background:url(../images/marker_1.gif) 0 5px no-repeat}
+.list1 li a:hover{ color:#7532a9}
+
+.folio {}
+.folio dt{position:relative; width:100%; height:455px; margin-bottom:40px;}
+.folio dt img{ position:absolute; top:0; left:0}
+.folio ul{ float:left; width:260px;}
+.folio li{ padding-bottom:40px;}
+
+
+.address{ width:97px; float:left;}
+
+/* ============================= footer ====================== */
+
+footer { color:#fff;}
+footer a{ color:#a013a0; text-decoration:none}
+footer a:hover{ text-decoration:underline}
+
+.line1{}
+.line2{}
+
+.icons{ float:left;    width: 100%;    margin: 0 60px;}
+.info{ float:left; width:140px;}
+.phone{ float:left; }
+
+.phone span{ font-size:30px; margin-top:-5px; text-transform:uppercase; display:block; line-height:1.2em; letter-spacing:-2px;}
+
+#icons{ padding: 8px 0 0 0; overflow:hidden;}
+#icons li{ float:left; padding-right:6px;}
+
+.icons h4 {text-indent: -10pt;font-weight: bold;padding: 0 0 10pt 0;}
+
+.grvk {width: 220px;margin-bottom: 10px;}
+.grvk2 {border: 1px solid white;}
+.grfb {width: 220px;}
+
+/* Tooltips */
+.aToolTip { background: url(../images/menu_active.gif) top repeat-x;  color:#fff;	margin:0; padding:2px 10px 3px; font-size:11px; line-height:1.2em; position: absolute;}
+.aToolTip .aToolTipContent { position:relative;	margin:0; padding:0;}
+
+
+/* ============================= forms ============================= */
+
+#ContactForm{ padding-top:2px;width:100%; overflow:hidden;}
+#ContactForm .wrapper{ min-height:35px;}
+#ContactForm .textarea_box{ min-height:264px;}
+#ContactForm  span{ float:left; width:120px; line-height:30px;}
+#ContactForm .button{ margin-right:5px; float:right; font-size:25px; color:#7532a9; text-decoration:none;letter-spacing:-2px; padding:0 13px; line-height:26px; height:31px; background:#fff;box-shadow: 0 0 6px rgba(256, 256, 256, .5); -moz-box-shadow: 0 0 6px rgba(256, 256, 256, .5); -webkit-box-shadow:  0 0 6px rgba(256, 256, 256, .5); position: relative; margin-bottom:5px;}
+#ContactForm .button:hover{ background: url(../images/menu_active.gif) top repeat-x; color:#fff;box-shadow: 0 0 6px rgba(152, 103, 190, .5); -moz-box-shadow: 0 0 6px rgba(152, 103, 190, .5); -webkit-box-shadow:  0 0 6px rgba(152, 103, 190, .5)}
+#ContactForm .input { margin:0;width:360px; height:16px; background:#fff; padding:7px 10px;color:#474747; font:14px Arial, Helvetica, sans-serif; margin:0}
+#ContactForm textarea { overflow: auto; margin:0;width:720px; height:230px; background:#fff; padding:7px 10px;color:#474747; font:14px Arial, Helvetica, sans-serif;}
+
+
+/* ============================= socknopki ============================= */
+.socknopki {
+    margin-left: 90%;
+}
+.socknopki span{
+   position: fixed; z-index: 9999; margin-left: 0px; top: 120pt;
+}
+@media (min-width: 568px) {
+.socknopki span{
+   position: fixed; z-index: 9999; margin-left: 0px; top: 50pt;
+}
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    font-size: 10px;
+}
+body {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+#layout {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+html.android #layout {
+    /*display: block;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+html.android .promocontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+.promocontent{
+    position: relative;
+    z-index: 4;
+
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    width: 33em;
+    border-radius: 1em;
+    box-sizing: border-box;
+    padding: 1em;
+    background: rgba(224,224,224,.95);
+    overflow: hidden;
+    bottom: -15em;
+    transition: 0.4s;
+    z-index: 5;
+    left: 50%;
+    margin-left: -16.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.popup.show {
+    bottom: 15px;
+}
+.popup_close_btn {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: url('../img/close.svg') 0 0 no-repeat;
+    background-size: 2em 2em;
+    cursor: pointer;
+    top: 1.2em;
+    right: 1.5em;
+    user-select: none;
+    outline: none;
+}
+.popup_close_btn:hover,
+.popup_close_btn:active {
+    opacity: 0.75;
+}
+.popup_logofar {
+    background:  url('../img/phar-icon.jpg') 0 0 no-repeat;
+    background-size: 6em 6em;
+    width: 6em;
+    height: 6em;
+    border-radius: 0.6em;
+    margin-right: 1em;
+    flex: 0 0 6em;
+}
+.popup_txt {
+    flex: 1 0 0;
+    margin-right: 2.75em;
+}
+.popup_title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 0.25em;
+}
+.popup_subtitle {
+    font-size: 1.3em;
+    color: #333333;
+    padding-bottom: 0.75em;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.popup_download_btn {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    height: 1.9230769230em;
+    text-transform: uppercase;
+    line-height: 1.9230769230em;
+    font-family: 'Roboto', Arial, sans-serif;
+    width: 14em;
+    border-radius: 0.7em;
+}
+.btn_blue {
+    background: #006DFF;
+    color: #fff;
+}
+.lnk_blue {
+    color: #006DFF;
+    text-decoration: underline;
+}
+
+
+
+@media all and (max-width: 500px) and (orientation: portrait) {
+    .popup {
+        left: 15px;
+        right: 15px;
+        margin-left: 0;
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 350px) {
+
+    .popup_txt {
+        font-size: 9px;
+        margin-right: 3em;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    font-size: 10px;
+}
+body {
+    height: 100%;
+}
+a, a:hover {
+    text-decoration: none;
+}
+#layout {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+html.android #layout {
+    /*display: block;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+html.android .promocontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 100%;
+}
+.promocontent {
+    position: relative;
+    z-index: 4;
+
+    display: none;
+
+}
+.btn_download {
+    height: 5em;
+    width: 33em;
+	max-width:95%;
+    margin: 1em auto 1em;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 5em;
+    text-transform: uppercase;
+    border-radius: 2em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.btn_download:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    background:  url('../img/download.svg') 0 0 no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 1em;
+}
+.btn_download:after {
+    content: 'скачать приложение';
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+}
+.btn_play {
+    height: 5em;
+    width: 33em;
+	max-width:95%;
+    margin: 1em auto 1em;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 5em;
+    text-transform: uppercase;
+    border-radius: 2em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.btn_play:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    background:  url('../img/phone.svg') 0 0 no-repeat;
+    background-size: contain;
+    display: block;
+    margin-right: 1em;
+}
+.btn_play:after {
+    content: 'играть на телефоне';
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.btn_blue {
+    background: #006DFF;
+    color: #fff;
+}
+.lnk_blue {
+    color: #006DFF;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media all and (max-width: 350px) {
+    .btn_play,
+    .btn_download {
+        width: 30em;
+		max-width:90%;
+    }
+
+}
+
+.b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+       -moz-transition: opacity 500ms ease-in-out;
+          -o-transition: opacity 500ms ease-in-out;
+             transition: opacity 500ms ease-in-out;
+               max-width: 100%;
+                 opacity: 0;
+}
+.b-lazy.b-loaded {
+    opacity: 1;
+}

@@ -1,0 +1,1105 @@
+/*таблица в слотах*/
+.textknopkasloti table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+margin: 10px auto;
+}
+.textknopkasloti th, .textknopkasloti td:first-child {
+background: #373858;
+color: white;
+padding: 10px 20px;
+}
+.textknopkasloti th, .textknopkasloti td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+.textknopkasloti td {
+background: #9e4900;color: white;
+}
+.textknopkasloti th:first-child, .textknopkasloti td:first-child {
+text-align: left;
+}
+/*таблица в слотах*/
+/*промокод*/
+.promo1{width:200px;height:25px}
+.promo1 .feature-block-header img{width: auto;height: auto;padding: 0;margin: 0;position: absolute;}
+.promo1 .feature-block-header img:hover {opacity:1;cursor: pointer;}
+
+.feature-block {
+  width: 200px;
+  height: 39px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+  align-items: center;
+}
+.feature-block-img {
+  display: block;
+  margin: 5px auto 0;
+  padding-top: 5px;
+  position:absolute
+}
+.feature-block-line {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #EDEDED;
+  margin: 5px auto 0;
+}
+.feature-block-title {
+  text-align: center;
+  font-family: "Roboto Regular";
+  font-size: 16px;
+}
+.feature-block p {
+    margin: 0;
+    text-align: center;
+    line-height: 22px;
+    font-family: "Roboto Light";
+    font-size: 30px;
+    color: white;
+	text-indent: 0;
+}
+#block-radio-1 {
+  display: none;
+}
+
+
+/*промокод*/
+
+table, table td {padding: 10px 5px;border: 1px solid white;}
+#ya-site-form0 .ya-site-form__form * {border: none}
+.img450 {max-width:450px;margin: 5pt;}
+.img450:hover {cursor:pointer;max-width:98%}
+
+.copyright{font-size: 8pt;
+    border-radius: 5pt;
+    background: #1d1b1b;
+    padding: 5pt;
+    line-height: 14pt;}
+.copyright div {text-align: center;
+    color: grey;}
+
+
+.faqmain li {padding-bottom:10pt;}
+.faqmain li .closed {color:white;}
+.date {color:white}
+
+/*свернуть развернуть*/
+.block-closed {
+	height: 210px; /*размер скрытого блока*/
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10pt;
+}
+
+.block-opened {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.block-button-wrap {
+	bottom: 0; 
+	position: absolute; 
+	padding: 10px 0 5px;
+	text-align: center;
+	width:100%;
+	background: linear-gradient(to top,#a900ff 0%,#b400ff 20%,transparent 100%)
+}
+
+.block-button {
+   border:none;
+	font-size: 24px;
+    background: 0 0;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*свернуть развернуть*/
+
+
+.video1 {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    border: 1px solid #000;
+  margin: 0 auto;
+}
+.video1-play {
+    background-image: url(/images/play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 180px;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -60px;
+    position: absolute;
+    border-radius: 21px;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+.video1-play:hover {background-image: url(/images/play-h.png)}
+
+.slotibutton1 {
+    width: 100%;
+	height: 600px;
+    position: relative;
+    margin: 15px 0 0;
+	text-align: center;
+	background-size: 100% 100% !important;
+}
+.zatemneniye {background: rgba(0,0,0,.8);width: 100%;height: 100%;}
+.slotibutton1-play {
+    background-image: url(/images/button-game0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 340px;
+    top: 100px;
+    left: 300px;
+    position: absolute;cursor: pointer;
+}
+.slotibutton1-play:hover {background-position: 0 -300px !important;}
+
+.opisaniye29 {text-align:left;margin: 10pt 5pt 0 0;}
+.opisaniye29 span {color: white;}
+.opisaniye29 span.op-bonus {color: #ffd01e;font-weight: bold;}
+.opisaniye29 span.op-freespin {color: #f14c4c;}
+
+.readMoreContent {height: 600px;overflow:hidden;}
+
+
+
+div.ssilkacasino {    text-align: center;    margin: 10pt;}
+span.ssilkacasino,.ssilkacasino span {background-color: #ff0000;border-radius: 10px;padding: 10px;}
+.ssilkacasino a, .ssilkacasino2 a {color: white !important;}
+
+div.ssilkacasino2 {    text-align: center;
+    background-color: #b300ff;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    margin: 0px auto 40px;}
+
+.sitemap ul li { margin: 5px 20px; list-style: disc; list-style-image: url(/images/list2.gif); }
+.sitemap ul li a{ color: #33799B}
+.sitemap ul li a:hover{ color:#000}
+
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+
+/* Global properties ======================================================== */
+
+body{ background: url(../images/bg.jpg) center 0 no-repeat #000; border:0; font:14px Arial, Helvetica, sans-serif; color:#9b9b9b; line-height:25px; min-width:960px;}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+/* Global Structure ============================================================= */
+
+.main {	margin: 0 auto;	width: 960px; }
+
+/*.bg1{ background:url(../images/bg_menu.png) 0 0 repeat-x}*/
+
+/* вид CSS кнопки */
+.del { display: none; }
+.del:not(:checked) + label + * { display: none; }
+.del:not(:checked) + label,
+.del:checked + label {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 2px;
+  color: #fff;
+  background: red;
+  cursor: pointer;
+}
+.del:checked + label {
+  background: #5bc0de;
+}
+/* КОНЕЦ вид CSS кнопки */
+
+/* ============================= main layout ====================== */
+
+a{ color:#e1c679; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+p.logo{ padding:0px 0 5px 0;width:360px;margin:0 auto}
+h1{ font-size:20px; color:#fff; line-height:1.2em; padding:10px 0 15px 0; font-weight:400; margin-left:-2px;text-indent: 20px;}
+h2{ font-size:18px; color:#fff; line-height:1.2em; padding:5px 0 5px 0; font-weight:400; margin-left:-2px;text-indent: 20px;}
+h2#welcom{ font-size:61px; line-height:1.2em; padding:0 0 9px 0; letter-spacing:-5px; margin-left:-5px;}
+h2 strong{ font-weight:700; color:#7532a9;}
+h3{ font-size:16px; line-height:1.2em; color:#fff; padding:0 0 8px 0; font-weight:400;text-indent: 20px;padding: 3pt 0;}
+h4{ font-size:16px; color:#fff; line-height:1.2em; font-weight:400; padding:12px 0 11px 0;text-indent: 20px;}
+p{ padding-bottom:5px;padding-top:5px;text-indent: 20px;}
+strong {color:white}
+p img{margin: 10px;border-radius: 10px;border: 2px solid #edbd53;max-width:98%}
+li img{margin: 10px;border-radius: 10px;border: 2px solid #edbd53;}
+.news img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:150px;height: 100px;margin: 0 10px 5px 0}
+.news2 img{border-radius: 10px;border: 1px solid red;float:left;width:150px;height: 100px;margin: 0 10px 5px 0}
+p#ua-casino {font-size:18px;font-weight:400; color:#7532a9;}
+#news {min-height:130px}
+
+/* ============================= header ====================== */
+
+
+#logo{ display:block; text-indent:-9999px; background:url(../images/logo.png) 0 0 no-repeat; width:360px; height:120px;margin: 0 auto;max-width:100%}
+@media (min-width: 950px){
+.menu-up { width:94%; overflow:hidden; background:url(../images/menu_line.png) 0 0 no-repeat;margin: auto;}
+.menu-up > li { width:150px; height:150px; float:left; background:url(../images/fishka-menu-all.png?4) right 0 no-repeat; background-position: 50% -750px}
+.menu-up > .active { width:150px; height:150px; float:left; background:url(../images/fishka-menu-all.png?4) right 0 no-repeat; background-position: 50% -750px}
+.menu-up > li+li,.menu-up > li+li .active {background-position: 50% -150px !important;}
+.menu-up > li+li+li,.menu-up > li+li+li .active {background-position: 50% -300px !important;}
+.menu-up > li+li+li+li,.menu-up > li+li+li+li .active {background-position: 50% -450px !important;}
+.menu-up > li+li+li+li+li,.menu-up > li+li+li+li+li .active {background-position: 50% 0 !important;}
+.menu-up > li+li+li+li+li+li,.menu-up > li+li+li+li+li+li .active {background-position: 50% -900px !important;}
+
+.menu-up > li > a{ font-size:18px; color:black; text-decoration:none; text-align:center;  width:120px;margin: 0 auto;height:85px;  display: table-cell;/*vertical-align: middle;*/padding: 65px 30px 0 30px; font-weight: bold; letter-spacing: -1px;line-height: 8px;}
+.menu-up > .active > a{color:red}
+/*.menu-up > .active {color:red;background:url(../images/fishka-menu-active.png) right no-repeat}*/
+/*.menu-up > li > a:hover{ width: 180px; background:url(../images/fishka-menu-hover.png) no-repeat}*/
+.menu-up > li > a:hover,.menu-up > li > a:hover .active {width: 150px; height:150px; background:url(../images/fishka-menu-hover.png) no-repeat;}
+.menu-up > li+li+li+li+li+li > a:hover,.menu-up > li+li+li+li+li+li > a:hover .active {width: 150px; background:url(../images/fishka-menu-all-inversiya.png) no-repeat;background-position: 50% -900px !important;}
+.menu-up > li+li+li+li+li+li > a{ font-size:18px; color:white; text-decoration:none; text-align:center;  width:120px;margin: 0 auto;height:85px;  display: table-cell;/*vertical-align: middle;*/    padding: 61px 30px 0 30px; font-weight: bold; letter-spacing: 0;line-height: 21px;}
+.menu-up > li+li+li+li+li+li > a:hover{ color:black;}
+.menu-up > li+li+li+li+li+li.last.active a {color:#f1e2b2 !important}
+}
+.poiskyandex {
+	    width: 300px;
+    position: absolute;
+    margin-left: 650px !important;
+	    top: 0;
+}
+.ya-site-form__input-text {padding: 5pt;}
+
+/* ============================= content ====================== */
+
+.casavomati {padding:0 0 280px 0}
+
+
+/* ============================= obozri ====================== */
+
+.allnews7 {}
+
+
+.raiting {line-height:18px;display: inline-block;text-indent: 0px;font-weight: normal;}
+.allobzor {float:right;margin: 0 40px 0 0;}
+.allobzor2 {margin: 0 40px 0 0;}
+.obzor {border: 3px solid #DEC852;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    text-indent: 0px;}
+.obzor a {text-decoration:none;color:white;font-weight: normal;}
+.obzor a:hover {color:#DEC852; text-decoration:underline;font-weight: normal;}
+.igrat {border: 3px solid #DEC852;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+	text-indent: 0px;}
+.igrat2 {border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+	text-indent: 0px;}
+.igrat a {text-decoration:none;color:white;font-weight: normal;}
+.igrat2 a {text-decoration:none;color:red;font-weight: normal;}
+.igrat a:hover {color:#DEC852; text-decoration:underline;font-weight: normal;}
+.igrat2 a:hover {color:red; text-decoration:underline;font-weight: normal;}
+#golosovat {display: block;
+    width: 95px;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: solid 1px;}
+#golosovat a:hover {color:white; text-decoration:underline;font-weight: normal;}
+.forma-obzor {border-radius:8px;padding: 5px}
+.forma-obzor-comments {border-radius:8px;padding: 5px;min-width: 98%;}
+#thanktpl {font-size: 20px;color: white;text-align: center;margin-bottom: 10pt;}
+#respond {color: white;clear:both}
+
+.fotocoment,.fotocoment2 {margin: 5pt auto;clear: both;padding-top: 5pt;}
+.fotocoment2 {width: 90%;margin-top: -10pt;padding-top: 0;}
+.fotocoment img,.fotocoment2 img{float:left;padding: 5pt;border-radius: 10pt;}
+.commentsgamer {padding: 5px !important;overflow: hidden;display: block;line-height: 16pt;}
+.comname {font-weight: 700;color: rgba(255,255,255,0.6);}
+.comdata {font-size: 10pt;color: rgba(255,255,255,0.5);}
+.comdescrip {font-size: 11pt;color: white;}
+.comments-fon {padding: 5pt;background: #333333;border-radius: 10pt;margin: 5pt;overflow: scroll;max-height: 750px;}
+
+li .raiting img {
+margin: 0; 
+border-radius: 0; 
+border: none; 
+}
+ol.obzori,ol.obzori2 {counter-reset:li;
+    padding:0;
+    list-style:none;
+}
+ol.obzori li {list-style-position: inherit;
+    text-indent: 0;
+    padding-top: 41px;
+    margin: 0;
+    color: white;
+counter-reset:  item;}
+ol.obzori2 li{list-style-position: inherit;
+    text-indent: 0;
+    padding-top: 41px;
+    margin: 0;
+    color: white;
+	counter-reset:  item;
+	width: 48%;
+    display: inline-block;}
+.obzori li {/*background: url(../images/krug.png) no-repeat 0 40px;*/
+    padding: 5px 8px;
+    font-weight: bold;}
+.obzori2 li {
+	padding: 5px 0;
+    font-weight: bold;}
+ol.obzori li:before{content: counter(li);
+    counter-increment: li;
+    padding: 5px 10px 5px 10px;
+    font-size: 15pt;
+    border: 2px solid;
+    border-radius: 15pt;}
+.casino-best {font-size: 20px;
+    color: #FCC21E;
+    line-height: 1.2em;
+    padding: 10px 0 15px 0;
+    font-weight: 400;
+    margin-left: -2px;
+    text-indent: 20px;
+    text-align: center;}
+
+#obzornews {display: inline-block;
+	width: 93%;
+    margin-left: 10px;
+    margin-top: -40px;}
+
+#obzornews2 {display: inline-block;
+	width: 93%;
+    margin-left: 50px;
+    margin-top: -40px;}
+
+/* ============================= news ====================== */
+.pagination a {text-decoration:underline;} 
+.pagination a:hover {text-decoration:none;} 
+.pagination .ditto_currentpage {color:#fff; background-color:orange; padding: 1px 3px; margin:2px;  font-weight:bold; } 
+.pagination .ditto_previous_link, .pagination .ditto_next_link{margin:0 10px;} 
+.pagination .ditto_page{ padding: 2px 5px;}
+
+/* ============================= all ====================== */
+.listmain {width:100%; height:1px; clear:both;}
+.listmain2 {width:75%; height:1px; margin: auto;}
+
+.list-img {width: 230px;height:305px; float:left;background:url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img:hover{background:url(../images/obvodka2.png) no-repeat,url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-z4 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-z4:hover{background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-z3 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-z3:hover {background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-rus {width: 230px;height:305px; float:left;background:url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-rus:hover {background:url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-rus-z4 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-rus-z4:hover {background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-rus-z3 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-rus-z3:hover {background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-usa {width: 230px;height:305px; float:left;background:url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-usa:hover {background:url(../images/zvezdi-5.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-usa-z4 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-usa-z4:hover {background:url(../images/zvezdi-4.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img-usa-z3 {width: 230px;height:305px; float:left;background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat,url(/images/cazino100-online-vstavka.png) no-repeat;text-align:center;}
+.list-img-usa-z3:hover {background:url(../images/zvezdi-3.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2.png) no-repeat;}
+
+.list-img img,.list-img-z4 img,.list-img-z3 img,.list-img-rus img,.list-img-rus-z4 img,.list-img-rus-z3 img,.list-img-usa img,.list-img-usa-z4 img,.list-img-usa-z3 img{width: 193px;height: 193px;padding: 18px 22px 25px 20px;    border-radius: 200px;}
+/* obvodka.list-img img{width: 172px;padding:30px 30px 25px 29px;border-radius: 200px;}*/
+.list-img img:hover,.list-img-z4 img:hover,.list-img-z3 img:hover,.list-img-rus img:hover,.list-img-rus-z4 img:hover,.list-img-rus-z3 img:hover,.list-img-usa img:hover,.list-img-usa-z4 img:hover,.list-img-usa-z3 img:hover{opacity: 0.5}
+
+
+
+
+#contentall-opis div.listmain,#contentall-opis div.listmain2 {height: 485px;}
+
+/* ============================= avtomati ====================== */
+
+.gameslot iframe {width: 100% !important;height: 600px;}
+.knopkasloti {text-align:center;font-size: 30px;padding-top: 20px;background: url(../images/knopka-igrat.png) no-repeat;    height: 45px;margin: 0 auto;width: 261px;}
+.knopkasloti:hover {background-position: 0 -65px;}
+.knopkasloti a {color:black;text-decoration: none;}
+.knopkasloti a:hover {color:yellow}
+
+.knopkamobile {display:none}
+
+ul.avtomatibrand {list-style: none;}
+.avtomatibrand li {width: 220px;height: 220px;float: left;text-align: center;padding: 0 8px 0 2px;margin: 0;text-indent: 0;background: url(/images/cazino100-sloti-vstavka.png) no-repeat;}
+.avtomatibrand li:hover {background: transparent;}
+.imgbrand img{border: 2px solid #e1c679;width: 100%;margin: 0 10px 5px 0;padding: 0;height: 160px;}
+.imgbrand a{text-decoration:none}
+.imgbrand a:hover img{opacity: 0.5; border: 3px solid #e1c679; width:205px;height: 156px}
+
+.avtomatispisok li {width: 173px;height: 180px;float: left;text-align: center;padding: 0 8px 0 2px;margin: 0;text-indent: 0;background: url(/images/cazino100-sloti-vstavka.png) no-repeat;}
+.avtomatispisok li:hover {background: transparent;}
+.imgavt img{border: 2px solid #e1c679;width: 100%;margin: 0 10px 5px 0;padding: 0;height: 120px;}
+.imgavt a{text-decoration:none}
+.imgavt a:hover img{opacity: 0.5; border: 3px solid #e1c679; width:165px;height: 116px}
+.textavt {font-size:18px; color:#e1c679}
+.stranici {padding: 10px 15px;display: inline-block; border: 3px solid #DEC852;border-radius: 10px;     margin: 0 10px 5px;}
+.stranici a {text-decoration: none; color:white;}
+.stranici a:hover {text-decoration: underline; color:#e1c679;}
+#imgicon {    position: absolute;
+    border: none;
+    left: 110px;
+    height: 70px;
+    width: 70px;
+    top: -1px;}
+#mobileicon {
+    position: absolute;
+    border: none;
+    left: 4px;
+    height: 20px;
+    width: 50px;
+    top: 2px;
+    border-radius: 5px;}
+.imgavt {position:relative}
+.imgicon2:after {
+    content: 'Новый';
+    background: #C76649;
+    z-index: 800;
+    padding-top: 3px;
+    color: white;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    top: 3px;
+    border-bottom: 2px solid #7A3521;
+    right: -38px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+/* ============================= poker ====================== */
+.listmain3 {width:100%; height:1px; clear:both;}
+.listmain4 {width:625px; height:1px; margin: auto;}
+.list-img3 {width: 310px;float:left;background:url(../images/flag-rus.png) no-repeat 20% 7px,url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-ukr.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3-usa {width: 310px;float:left;background:url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-ukr.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3-rus {width: 310px;float:left;background:url(../images/flag-usa.png) no-repeat 40% 8px,url(../images/flag-rus.png) no-repeat 60% 8px,url(../images/poker-fon-karta.png) no-repeat;}
+.list-img3 img,.list-img3-usa img,.list-img3-rus img{width: 290px;height: 134px;padding:35px 22px 25px 9px;}
+.list-img3 img:hover,.list-img3-usa img:hover,.list-img3-rus img:hover {opacity: 0.5;}
+
+.shortlist {margin:5pt 10pt 0 5pt; color:white}
+.shortlist h2 {text-align: center;}
+.shortlist p {text-align: center;text-indent: 0px;font-size: 18px;font-weight: bold;}
+ul.menulist {list-style-image: url(../images/fishka-menu-small.png);}
+ul.menulist li {line-height: 15pt;}
+span.opisaniyeshort {font-weight:bold;text-decoration: underline;}
+.shortlist-main {font-weight:bold;color:#e1c679;font-size: 12pt;display: inline-block;}
+
+/* ============================= ruletka ====================== */
+.list-img4 {width: 230px;height:270px; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka-ruletka.png) no-repeat;text-align:center;}
+.list-img4-rus {width: 230px;height:270px; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka-ruletka.png) no-repeat;text-align:center;}
+.list-img4-usa {width: 230px;height:270px; float:left;background:url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka-ruletka.png) no-repeat;text-align:center;}
+.list-img4 img,.list-img4-rus img,.list-img4-usa img{width: 175px;    padding:30px 28px 30px 28px;    border-radius: 200px;}
+.list-img4 img:hover,.list-img4-rus img:hover,.list-img4-usa img:hover{opacity: 0.5;}
+
+/* ============================= stavki ====================== */
+.list-img5 {width: 230px;height:270px; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 90% 0,url(../images/flag-ukr.png) no-repeat 100% 0,url(../images/obvodka-stavki3.png) no-repeat;text-align:center;}
+.list-img5-rus {width: 230px;height:270px; float:left;background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 90% 0,url(../images/obvodka-stavki3.png) no-repeat;text-align:center;}
+.list-img5-usa {width: 230px;height:270px; float:left;background:url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 90% 0,url(../images/obvodka-stavki3.png) no-repeat;text-align:center;}
+.list-img5 img,.list-img5-rus img,.list-img5-usa img{width: 193px;height: 193px;padding: 18px 22px 25px 20px;    border-radius: 50px;}
+.list-img5 img:hover,.list-img5-rus img:hover,.list-img5-usa img:hover{opacity: 0.8;}
+
+
+
+
+
+.box{background:url(../images/bg_content.png) repeat; padding:10px 15px 20px 15px; overflow:hidden;border-radius: 20px;}
+#page1 .box{ padding-top:10px;}
+
+#content{ padding-bottom:18px;}
+#page2 #content{ padding-bottom:50px;}
+#page5 #content{ padding-bottom:40px;}
+
+.pad_left1{ padding-left:60px}
+.pad_bot1{ padding-bottom:15px;}
+.pad_bot2{ padding-bottom:30px;}
+.marg_right1{ margin-right:40px}
+#page2 .pad_bot1{ padding-bottom:40px;}
+#page5 .pad_bot1{ padding-bottom:10px;}
+#page6 .pad_left1{ padding-left:36px;}
+#page6 .pad_bot1{ padding-bottom:10px;}
+
+.color1{ color:#fff}
+.color2{ color:#7532a9}
+
+.link1{ color:#fff; text-decoration: none}
+.link1:hover{ color:#7532a9}
+
+.link2{ color:#7532a9; text-decoration: none}
+.link2:hover{ text-decoration:underline}
+
+.dropcap_1{ float:left; margin-top:-4px; width:110px; height:95px; background:url(../images/bg_dropcap.png) 0 0 no-repeat; margin-right:7px; font-size:48px; color:#fff; line-height:1.2em; text-align:center; font-weight:bold; letter-spacing:-4px; padding-top:15px;}
+.dropcap_1 span{ display:block; font-size:19px; line-height:1.2em; font-weight:400; letter-spacing:-1px; margin-top:-11px}
+.dropcap_1 cufontext{ display:block; font-size:19px; line-height:1.2em; font-weight:400; letter-spacing:-1px; margin-top:-11px}
+
+#gallery1{ height: 225px !important; margin-left:-7px;}
+#gallery1 li{ overflow:inherit !important; }
+
+.prev, .next{ float:right; background:url(../images/markers.jpg) 0 0 no-repeat; width:39px; height:39px; margin-right:-3px;}
+.next{ background-position:right 0}
+.prev:hover{ background-position: 0 bottom}
+.next:hover{ background-position: right bottom}
+
+
+.list1{}
+.list1 li{ line-height:25px;}
+.list1 li a{ color:#fff; text-decoration:none; padding-left:14px; background:url(../images/marker_1.gif) 0 5px no-repeat}
+.list1 li a:hover{ color:#7532a9}
+
+.folio {}
+.folio dt{position:relative; width:100%; height:455px; margin-bottom:40px;}
+.folio dt img{ position:absolute; top:0; left:0}
+.folio ul{ float:left; width:260px;}
+.folio li{ padding-bottom:40px;}
+
+
+.address{ width:97px; float:left;}
+
+
+/*menu-right*/
+@charset "UTF-8";
+
+
+:focus, :active {
+  outline: none;
+}
+
+
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+
+.icon span{
+  color: transparent;
+  white-space: nowrap;
+  background-color: transparent;
+  transition:.1s;
+  padding-left: 0.1vw;
+	font-family: cursive;
+}
+.right-fixed .icon{
+  margin-bottom:1vw;
+  margin-top:1vw;
+  /*margin-right: -175px;*/
+  margin-left: 11vw;
+  transition: .1s;
+  font-size:1.6vw;
+  display: flex;
+  align-items: center;
+
+}
+.right-fixed a img {
+  width: 5vw;
+  height: 3vw;
+  object-fit: cover;
+  border-radius: 1vw;
+  margin-left: -3px;
+	border: 1px solid white;
+	margin-left: -0.3vw;
+    margin-right: 1vw;
+}
+
+.right-fixed .icon img {
+  width: auto;
+}
+.right-fixed a:hover{
+  background-color: #c71f5f!important;
+  color:#fff;
+}
+.right-fixed a {
+  display: flex; 
+  background:transparent;
+  width:13vw;
+  color:transparent;
+  font-family:Georgia, serif;
+     font-size: 0.8vw;
+  /*border:2.5px solid transparent;*/
+  border-radius:10vw;
+  cursor:pointer;
+  transition:.1s;
+  margin-left: 10vw;
+  margin-bottom: 1vw;
+  align-items: center;
+  padding-right: 2vw;
+  text-align: left;
+}
+.right-fixed:hover a{
+  top:10vw;
+  color:rgb(243, 231, 231);
+  background:rgb(129, 100, 141);
+  margin-left: 0;
+	text-decoration:none;
+}
+.right-fixed:hover .icon{
+  margin-right: 12vw;
+}
+.right-fixed:hover span{
+  top:6vw;
+  color:rgb(243, 231, 231);
+  padding-bottom:0.1vw;
+}
+.right-fixed {
+  width: 7vw;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+	top:0px;
+  background-image: radial-gradient(circle at center, #5a0153 0%, #140315 100%);
+  display: flex;
+  flex-direction: column;
+  transition: .1s;
+  align-items: center;
+  z-index: 10;
+  margin-right: -1vw;
+}
+.right-fixed a div{
+  padding-left: 0.1vw;
+	text-decoration:none;
+}
+
+.right-fixed:hover {
+  width: 18vw;
+}
+
+@media (max-width: 1049px) {
+	.right-fixed {background: transparent;}
+	.slotsicon {display:none;}
+.right-fixed:hover {background-image: radial-gradient(circle at center, #5a0153 0%, #140315 100%);
+	width:70%;max-width:400pt}
+.right-fixed:hover .slotsicon {display: block;width:90%}
+	.right-fixed:hover a img {width: 100px;height: 60px;}
+	.right-fixed:hover a {width:100%;padding-right: 0;}
+	.right-fixed:hover a div, .right-fixed:hover .icon span {font-size: 14pt;}
+	.right-fixed .icon img {margin-right: 30pt;}
+	.right-fixed:hover .icon img {margin-right: 10pt;}
+
+}
+	
+
+/* ============================= footer ====================== */
+
+footer { color:#fff;}
+footer a{ color:#a013a0; text-decoration:none}
+footer a:hover{ text-decoration:underline}
+
+.line1{ background:url(../images/line_vert1.gif) 260px 0 repeat-y; margin-bottom: 10px;}
+.line2{ background:url(../images/line_vert1.gif) 600px 0 repeat-y; }
+
+.icons{ float:left; width:560px; padding-right:70px}
+.info{ float:left; width:140px;}
+.phone{ float:left; }
+
+.phone span{ font-size:30px; margin-top:-5px; text-transform:uppercase; display:block; line-height:1.2em; letter-spacing:-2px;}
+
+#icons{ padding: 8px 0 0 0; overflow:hidden;}
+#icons li{ float:left; padding-right:6px;}
+
+.grvk {float: left}
+.grvk2 {border: 1px solid white;}
+.grfb {float: right}
+
+/* Tooltips */
+.aToolTip { background: url(../images/menu_active.gif) top repeat-x;  color:#fff;	margin:0; padding:2px 10px 3px; font-size:11px; line-height:1.2em; position: absolute;}
+.aToolTip .aToolTipContent { position:relative;	margin:0; padding:0;}
+
+
+/* ============================= forms ============================= */
+
+#ContactForm{ padding-top:2px;width:100%; overflow:hidden;}
+#ContactForm .wrapper{ min-height:35px;}
+#ContactForm .textarea_box{ min-height:264px;}
+#ContactForm  span{ float:left; width:120px; line-height:30px;}
+#ContactForm .button{ margin-right:5px; float:right; font-size:25px; color:#7532a9; text-decoration:none;letter-spacing:-2px; padding:0 13px; line-height:26px; height:31px; background:#fff;box-shadow: 0 0 6px rgba(256, 256, 256, .5); -moz-box-shadow: 0 0 6px rgba(256, 256, 256, .5); -webkit-box-shadow:  0 0 6px rgba(256, 256, 256, .5); position: relative; margin-bottom:5px;}
+#ContactForm .button:hover{ background: url(../images/menu_active.gif) top repeat-x; color:#fff;box-shadow: 0 0 6px rgba(152, 103, 190, .5); -moz-box-shadow: 0 0 6px rgba(152, 103, 190, .5); -webkit-box-shadow:  0 0 6px rgba(152, 103, 190, .5)}
+#ContactForm .input { margin:0;width:360px; height:16px; background:#fff; padding:7px 10px;color:#474747; font:14px Arial, Helvetica, sans-serif; margin:0}
+#ContactForm textarea { overflow: auto; margin:0;width:720px; height:230px; background:#fff; padding:7px 10px;color:#474747; font:14px Arial, Helvetica, sans-serif;}
+
+
+/* ============================= socknopki ============================= */
+.socknopki {
+    margin-left: -2.5vw;
+}
+@media screen and (max-width: 1048px) {
+    .socknopki {margin-left: 94%;}
+   }
+
+.socknopki span{
+   position: fixed; z-index: 9; margin-left: 0px; top: 150px;
+}
+
+
+
+
+/* блок выигрывают */
+.blokdengi {clear:both;    
+	background: url(../images/fon-winner.jpg) no-repeat;
+    border-radius: 10pt;
+    padding: 5pt;
+    margin: 10pt 0;
+border: 1px white solid;}
+
+.seyviig {    font-size: 18pt;
+    text-align: center;
+    color: white;
+    letter-spacing: 1pt;
+    margin: 0 0 10pt;}
+
+#app {clear:both}
+#container { /* описание стилей всего блока */
+    height: 250px;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+
+#play-button { /* описание стилей для кнопки */
+	color: #fff; /* цвет текста */
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	user-select: none; /* убирать выделение текста */
+	background: rgb(226, 173, 20); /* фон кнопки */
+	padding: .5em 1.3em; /* отступ от текста */
+	outline: none; /* убирать контур в Mozilla */
+	flex-grow: 1;
+	border-radius: 5px;
+}
+
+#play-button:hover /* при наведении курсора мышки */
+{
+	background: rgb(232,95,76);
+
+}
+#play-button:active /* при нажатии */
+{
+	background: rgb(226, 173, 20); 
+}
+
+#description { /*описание стилей для части блока с именем пользователя и кнопкой*/
+color: #ffbd00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrap-prize {
+    margin: 5px;
+    height: 30px;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 15pt;
+}
+#wrap-username {
+height: 30px;
+    flex-grow: 1;
+    color: white;
+    text-align: center;
+    margin: 5pt 0 0;
+}
+#wrap-play-button {
+	height:30px;
+	flex-grow: 1;
+}
+#card {
+    margin:0 5px;
+}
+#card img {
+    width: 170px;
+    height: 125px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+#card a:hover img{opacity: 0.7; border: 3px solid #e1c679; width:165px;height: 116px}
+
+@media (max-width: 640px){
+#card img {
+    width: 150px;
+    border: 2px solid orange;
+    border-radius: 10px;}	
+.blokdengi{background: url(../images/fon-winner.jpg) 450px 0;}
+}
+
+
+.ssilkifot a {text-decoration:underline;color:white}
+.ssilkifot a:hover {text-decoration:none}
+
+.b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+       -moz-transition: opacity 500ms ease-in-out;
+          -o-transition: opacity 500ms ease-in-out;
+             transition: opacity 500ms ease-in-out;
+               max-width: 100%;
+                 opacity: 0;
+}
+.b-lazy.b-loaded {
+    opacity: 1;
+}
+
+
+
+
+	
+
+
+
+@media (min-width: 723px){
+	.MOBILE-s {display:none}
+}	
+
+@media (max-width: 722px){
+	.STANDART-s {display:none}
+}
+
+@media screen and (max-width: 1048px) {
+.socknopki {margin-left: 94%;}
+}
+@media (max-width: 949px){
+.opisaniye29 {display:none}
+.box {padding: 10px 5px 20px 5px;}
+
+body{ min-width:100%;}
+
+
+.main {	width: 100%; }
+
+h1{ font-size:18pt; color:#fff; line-height:1.2em; padding:20px 0 14px 0; font-weight:400; margin-left:-1px;text-indent: 7pt;}
+h2{ font-size:17pt; color:#fff; line-height:1.2em; padding:20px 0 14px 0; font-weight:400; margin-left:-1px;text-indent: 7pt;}
+h3{ font-size:16pt; line-height:1.2em; color:#fff; padding:0 0 8px 0; font-weight:400; letter-spacing:-1px;text-indent: 7pt;}
+h4{ font-size:16pt; color:#7f7f7f; line-height:1.2em; font-weight:400; padding:12pt 0 0 0;text-indent: 7pt;}
+p{ padding-bottom:5pt;text-indent: 7pt;}
+
+p img{margin:0 0 10pt;border-radius: 10px;border: 2px solid #edbd53;max-width:95%}
+li img{border-radius: 10px;border: 2px solid #edbd53;}
+.news img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:90%;height: 150px;margin: 0 10px 5px 10px}
+.news2 img{border-radius: 10px;border: 1px solid red;float:left;width:90%;height: 150px;margin: 0 10px 5px 10px}
+
+#logo{ display: block;text-indent: -9999px;background: url(../images/logo.png) 0 0 no-repeat;margin: 0 auto;}
+
+.menu-up { width:90%; overflow:hidden;margin-bottom: 5pt;}
+.menu-up > li { float:left;background: #9100ff;border-radius: 10pt;margin: 6pt;width: 100pt;font-family: "Trebuchet MS",Helvetica,sans-serif;}
+.menu-up > .active { float:left; }
+.menu-up > li+li,.menu-up > li+li .active {background-position: 50% -180px !important;}
+.menu-up > li+li+li,.menu-up > li+li+li .active {background-position: 50% -360px !important;}
+.menu-up > li+li+li+li,.menu-up > li+li+li+li .active {background-position: 50% -540px !important;}
+.menu-up > li+li+li+li+li,.menu-up > li+li+li+li+li .active {background-position: 50% 0 !important;}
+
+.menu-up > li > a{ font-size:20pt; color:white; text-decoration:none; text-align:center;margin: 0 auto; display: table-cell;/*vertical-align: middle;*/padding: 5pt; font-weight: bold; letter-spacing: -1px;}
+.menu-up > .active > a{color:red}
+/*.menu-up > .active {color:red;background:url(../images/fishka-menu-active.png) right no-repeat}*/
+.menu-up > li > a:hover{ }
+
+.menu-up > li {margin-bottom:0}
+
+.poiskyandex {
+	    width: 90%;
+float:left;
+	max-width: 500px;
+	    margin-left: 0 !important;
+		position: relative;
+}
+.ya-site-form__input-text, .ya-site-form__search-input-layout-l,.ya-site-form__input {padding: 5pt; !important}
+
+.casavomati {padding:0 0 140px 0}
+
+.allnews72 {text-align:center;}
+.allobzor {float:none;margin: 0;}
+.obzor {padding: 5px;
+    font-size: 18px;
+    display: inline-block;}
+.igrat {padding: 5px;
+    font-size: 18px;}
+.igrat2 {padding: 5px;
+    font-size: 18px;}
+#golosovat {margin-bottom:5px;}
+
+.fotocoment,.fotocoment2 {margin: 10pt auto;padding-top: 10pt;}
+.fotocoment2 {margin-top: -15pt;}
+
+ol.obzori li{padding-top: 0;
+padding-bottom: 41px;}
+.obzori li {padding: 0 8px;
+    font-weight: bold;}
+.obzori2 li {
+	padding: 0;}
+ol.obzori2 li{display: inline-block;
+    list-style-position: inherit;
+    text-indent: 0;
+    padding-top: 41px;
+    margin: 0;
+    color: white;
+    width: 100%;
+    counter-reset: item;}
+	
+.casino-best {font-size: 18pt;
+    padding: 20px 0 14px 0;
+    margin-left: -1px;
+    text-indent: 7pt;}
+#obzornews {margin-left: 40px;}
+#obzornews2 {margin-left: 15px;margin-bottom: 10px;}
+
+	.promo1 .feature-block-header img {
+    width: 120pt;
+}
+	.feature-block p {font-size: 20px;}
+	
+.listmain {display:inline}
+.listmain2 {width:100%; display:inline}
+.list-img {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img:hover{background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-z4 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img-z4:hover{background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-z3 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/*background-size: 120pt;*/text-align:center;}
+.list-img-z3:hover {background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/flag-ukr.png) no-repeat 100% 45px,url(../images/obvodka2-mob.png) no-repeat;}
+
+.list-img-rus {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-rus:hover {background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-rus-z4 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-rus-z4:hover {background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-rus-z3 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-rus-z3:hover {background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-usa {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa:hover {background:url(../images/zvezdi-5m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-usa-z4 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa-z4:hover {background:url(../images/zvezdi-4m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+.list-img-usa-z3 {width: 120pt;height: 165pt; float:left;background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka2-mob.png) no-repeat,url(/images/cazino100-online-vstavka-mob.png) no-repeat;/* background-size: 120pt;*/text-align:center;}
+.list-img-usa-z3:hover {background:url(../images/zvezdi-3m.png) no-repeat 0 0,url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 20px,url(../images/obvodka2-mob.png) no-repeat;}
+
+.list-img img,.list-img-z4 img,.list-img-z3 img,.list-img-rus img,.list-img-rus-z4 img,.list-img-rus-z3 img,.list-img-usa img,.list-img-usa-z4 img,.list-img-usa-z3 img{ width: 101pt;height: 101pt;padding: 13px 14px 10px 13px;border-radius: 60pt;}
+.list-img img:hover,.list-img-z4 img:hover,.list-img-z3 img:hover,.list-img-rus img:hover,.list-img-rus-z4 img:hover,.list-img-rus-z3 img:hover,.list-img-usa img:hover,.list-img-usa-z4 img:hover,.list-img-usa-z3 img:hover{opacity: 0.5;}
+
+.gameslot {background:url(../images/strelka-m.png?2) no-repeat 100%}
+.gameslot iframe {width: 100% !important;height: 300px;}
+.knopkasloti {font-size: 24px;padding: 20px 0;line-height:20pt;background: none;margin-bottom: 180pt;}
+.mobile-knopka {background: url(../images/knopka-igrat.png) no-repeat;height: 45px;margin: 0 auto;width: 261px;padding-top: 20px;}
+.knopkamobile {display:inherit}
+.avtomatibrand li {float: left;text-align: center;padding: 0 10px 0 0;background: url(/images/cazino100-sloti-vstavka-mob.png) no-repeat;position: relative;}
+.imgbrand img{border: 1px solid #e1c679;}
+.imgbrand a:hover{opacity: 0.5;}
+	
+.avtomatispisok li {width: 110pt;height: 135pt;float: left;text-align: center;padding: 0 10px 0 0;background: url(/images/cazino100-sloti-vstavka-mob.png) no-repeat;position: relative;}
+.imgavt img{border: 1px solid #e1c679;}
+.imgavt a:hover{opacity: 0.5;}
+#imgicon {position: absolute;
+    border: none;
+    left: 80px;
+    height: 70px;
+    width: 70px;
+top: -1px;}
+
+.listmain3 {display:inline}
+.listmain4 {width:100%;display:inline}
+.list-img3 {width: 230pt;max-height:360pt;}
+.list-img3-usa {width: 230pt;max-height:360pt;}
+.list-img3-rus {width: 230pt;max-height:360pt;}
+.list-img3 img,.list-img3-usa img,.list-img3-rus img {width: 217pt;height: 99pt;padding:37px 22px 25px 10px;}
+.shortlist {margin:0 10pt 0 25pt;}
+
+.list-img4 {width: 120pt;height: 155pt; background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/flag-ukr.png) no-repeat 100% 28pt,url(../images/obvodka-ruletka-mob.png) no-repeat;}
+.list-img4-rus {width: 120pt;height: 155pt; background:url(../images/flag-rus.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka-ruletka-mob.png) no-repeat;}
+.list-img4-usa {width: 120pt;height: 155pt; background:url(../images/flag-ukr.png) no-repeat 80% 0,url(../images/flag-usa.png) no-repeat 92% 12pt,url(../images/obvodka-ruletka-mob.png) no-repeat;}
+.list-img4 img,.list-img4-rus img,.list-img4-usa img{ width: 90pt;padding:22px 16px 18px 16px;border-radius: 60pt;}
+
+.list-img5 {width: 120pt;height: 155pt;background:url(../images/flag-rus.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/flag-ukr.png) no-repeat 100% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;}
+.list-img5-rus {width: 120pt;height: 155pt;background:url(../images/flag-rus.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;}
+.list-img5-usa {width: 120pt;height: 155pt; background:url(../images/flag-ukr.png) no-repeat 60% 0,url(../images/flag-usa.png) no-repeat 80% 0,url(../images/obvodka-stavki3-mob.png) no-repeat;}
+.list-img5 img,.list-img5-rus img,.list-img5-usa img{width: 100pt;height: 100pt;padding: 20px 6px 5px 6px;border-radius: 25pt;}
+
+#content{width: 92%;}
+
+.icons{width: 100%;margin: 0 60px;padding-right:0}
+.icons h4 {text-indent: -10pt;font-weight: bold;padding: 0 0 10pt 0;}
+.grvk {float: none;width: 220px;margin-bottom: 10px;}
+.grfb {float: none;width: 220px;}
+
+.socknopki { margin-left: 90%;}
+.socknopki span{top: 60pt;}
+	
+	.slotibutton1 {
+
+	height: 300px;
+
+}
+
+.slotibutton1-play {
+    top: 0;
+    left: 10px;
+}
+
+}
+
+@media (max-width: 800px){
+	#content p img {width:95%;float:none !important;max-width: 100%;}
+}
+
+@media (max-width: 540px){
+	.avtomatibrand li {width:95%;height: 300px;}
+	.imgbrand img{height: 240px;}
+.imgbrand a:hover img{opacity: 0.5; border: 3px solid #e1c679; width:100%;height: 240px}
+}
+
+@media (min-width: 480px) and (max-width: 950px){
+	.news img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:45%;margin: 0 10px 5px 10px}
+	.news2 img{border-radius: 10px;border: 2px solid #edbd53;float:left;width:45%;margin: 0 10px 5px 10px}
+	#content p{width:95%}
+	
+.menu-up {    height: 100%;
+    margin-bottom: 4px;}
+
+	.obzor {padding: 5px;font-size: 18px;}
+	.igrat, .igrat2 {padding: 5px;font-size: 18px;}
+.gameslot {background:url(../images/strelka-m.png?1) no-repeat 95%}
+}

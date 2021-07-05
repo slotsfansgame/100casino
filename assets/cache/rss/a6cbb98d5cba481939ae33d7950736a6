@@ -1,0 +1,381 @@
+O:9:"MagpieRSS":24:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:10:{i:0;a:8:{s:5:"title";s:20:"Evolution  CMS 3.1.3";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.1.3";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Thu, 25 Mar 2021 05:55:57 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.1.3";s:11:"description";s:10130:"<h2>Important changes:</h2>
+<ul>
+<li>Add artisan route:list</li>
+<li>Update composer-merge-plugin version</li>
+<li>External image in [(login_logo)] &amp; [(login_bg)]</li>
+</ul>
+<h2>Changelog</h2>
+<ul>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2d7f11f37bda09e2cf669c2442eca7a2d3bf1b67/hovercard" href="https://github.com/evolution-cms/evolution/commit/2d7f11f37bda09e2cf669c2442eca7a2d3bf1b67"><tt>2d7f11f</tt></a>] - update phpthumb ( migrate to composer) (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/bbc97d752d28ce852dba328e74123ddb1c99917a/hovercard" href="https://github.com/evolution-cms/evolution/commit/bbc97d752d28ce852dba328e74123ddb1c99917a"><tt>bbc97d7</tt></a>] - core (fix) change OnWebPagePrerender event (Serious)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a46f9542dc33d4445c34c47c71bce1f9448f4324/hovercard" href="https://github.com/evolution-cms/evolution/commit/a46f9542dc33d4445c34c47c71bce1f9448f4324"><tt>a46f954</tt></a>] - fix composer-merge-plugin version (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/3ebfa0f1752fc600104054ca97ca1c23cb1039ae/hovercard" href="https://github.com/evolution-cms/evolution/commit/3ebfa0f1752fc600104054ca97ca1c23cb1039ae"><tt>3ebfa0f</tt></a>] - up from 1k to 3k update tree (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8e848b7f5571d4677bfdc4e0fc1b1204cab58e2e/hovercard" href="https://github.com/evolution-cms/evolution/commit/8e848b7f5571d4677bfdc4e0fc1b1204cab58e2e"><tt>8e848b7</tt></a>] - return lost constant (Pathologic)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/c7debfab582af2a22a482a11d071a9a8288dec51/hovercard" href="https://github.com/evolution-cms/evolution/commit/c7debfab582af2a22a482a11d071a9a8288dec51"><tt>c7debfa</tt></a>] - Update ManagerTheme.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/b266175f4e88227e84becbe57af06680e92f34af/hovercard" href="https://github.com/evolution-cms/evolution/commit/b266175f4e88227e84becbe57af06680e92f34af"><tt>b266175</tt></a>] - Japanese update (masco123)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/cd5dc719cd289426b231d8da927c27ae9a1a0c13/hovercard" href="https://github.com/evolution-cms/evolution/commit/cd5dc719cd289426b231d8da927c27ae9a1a0c13"><tt>cd5dc71</tt></a>] - fix prefix (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d33b539524cb7068c0541043a0c8c92388eddf65/hovercard" href="https://github.com/evolution-cms/evolution/commit/d33b539524cb7068c0541043a0c8c92388eddf65"><tt>d33b539</tt></a>] - fix backtrace (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d4ccf1b3b020f0acbdf3b71f16c575313d288f58/hovercard" href="https://github.com/evolution-cms/evolution/commit/d4ccf1b3b020f0acbdf3b71f16c575313d288f58"><tt>d4ccf1b</tt></a>] - console exceptions handling (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/6226f01cd4ab0e023a1ad5a617775c6cfc44da8b/hovercard" href="https://github.com/evolution-cms/evolution/commit/6226f01cd4ab0e023a1ad5a617775c6cfc44da8b"><tt>6226f01</tt></a>] - fix password field in extras (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/801a0d9e357f2956d0505aa9ed5ab5cd0b5d584b/hovercard" href="https://github.com/evolution-cms/evolution/commit/801a0d9e357f2956d0505aa9ed5ab5cd0b5d584b"><tt>801a0d9</tt></a>] - fix console detection (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2acdc2e1b7240d7359bcd5cbd5da34912e86d5d4/hovercard" href="https://github.com/evolution-cms/evolution/commit/2acdc2e1b7240d7359bcd5cbd5da34912e86d5d4"><tt>2acdc2e</tt></a>] - disable exceptions handler in console (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/e7caa0920b56a1e7ea144de54545edc016b58ee4/hovercard" href="https://github.com/evolution-cms/evolution/commit/e7caa0920b56a1e7ea144de54545edc016b58ee4"><tt>e7caa09</tt></a>] - exceute parser only on notFound&amp;notAllowed exception (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/b98305d3993b430f632ed72ec614a469a0b3955f/hovercard" href="https://github.com/evolution-cms/evolution/commit/b98305d3993b430f632ed72ec614a469a0b3955f"><tt>b98305d</tt></a>] - artisan route:list (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/57aabc67064c37f8a4c49b8633c9a7487e9d13f0/hovercard" href="https://github.com/evolution-cms/evolution/commit/57aabc67064c37f8a4c49b8633c9a7487e9d13f0"><tt>57aabc6</tt></a>] - core (fix) add check for admin (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/9616055db445fcdc88773d5557077c631d218ba9/hovercard" href="https://github.com/evolution-cms/evolution/commit/9616055db445fcdc88773d5557077c631d218ba9"><tt>9616055</tt></a>] - Update Core.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a561d02ef9fbd38751893809e0666ca9bf12e212/hovercard" href="https://github.com/evolution-cms/evolution/commit/a561d02ef9fbd38751893809e0666ca9bf12e212"><tt>a561d02</tt></a>] - fix External image in [(login_logo)] <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="625566367" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1468" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1468/hovercard" href="https://github.com/evolution-cms/evolution/issues/1468">#1468</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8d99db88c7bd1e33f505050889b8a4043be23a78/hovercard" href="https://github.com/evolution-cms/evolution/commit/8d99db88c7bd1e33f505050889b8a4043be23a78"><tt>8d99db8</tt></a>] - fix Uses Template drop-down doesn't list templates by category <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="816587710" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1893" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1893/hovercard" href="https://github.com/evolution-cms/evolution/issues/1893">#1893</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/863c2d19ff330e200fc4b95e4598bfae687a1021/hovercard" href="https://github.com/evolution-cms/evolution/commit/863c2d19ff330e200fc4b95e4598bfae687a1021"><tt>863c2d1</tt></a>] - fix [<em>pagetitle@1</em>] not working on Error page <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="816584477" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1892" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1892/hovercard" href="https://github.com/evolution-cms/evolution/issues/1892">#1892</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/6196edd225d551bf9ea54a727da13aaafdb710ec/hovercard" href="https://github.com/evolution-cms/evolution/commit/6196edd225d551bf9ea54a727da13aaafdb710ec"><tt>6196edd</tt></a>] - Update ht.access (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/3b9d38ef1dd038ad7c73abcac5027a59b03fe006/hovercard" href="https://github.com/evolution-cms/evolution/commit/3b9d38ef1dd038ad7c73abcac5027a59b03fe006"><tt>3b9d38e</tt></a>] - Update Core.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d2e93ccbaca351a08d12f04bb27c4d1d1f4da15b/hovercard" href="https://github.com/evolution-cms/evolution/commit/d2e93ccbaca351a08d12f04bb27c4d1d1f4da15b"><tt>d2e93cc</tt></a>] - fix {{chunk[+ph+]}} (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/00359aecb89cfe0429b2a2d3f090f5f2f3bd0880/hovercard" href="https://github.com/evolution-cms/evolution/commit/00359aecb89cfe0429b2a2d3f090f5f2f3bd0880"><tt>00359ae</tt></a>] - Update Dockerfile (Pavel Bihel)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a0beb80e019a4bccadfa6b95ee320a47ca3b155c/hovercard" href="https://github.com/evolution-cms/evolution/commit/a0beb80e019a4bccadfa6b95ee320a47ca3b155c"><tt>a0beb80</tt></a>] - fix getLoginUserName (mnoskov)</li>
+</ul>";s:7:"summary";s:10130:"<h2>Important changes:</h2>
+<ul>
+<li>Add artisan route:list</li>
+<li>Update composer-merge-plugin version</li>
+<li>External image in [(login_logo)] &amp; [(login_bg)]</li>
+</ul>
+<h2>Changelog</h2>
+<ul>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2d7f11f37bda09e2cf669c2442eca7a2d3bf1b67/hovercard" href="https://github.com/evolution-cms/evolution/commit/2d7f11f37bda09e2cf669c2442eca7a2d3bf1b67"><tt>2d7f11f</tt></a>] - update phpthumb ( migrate to composer) (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/bbc97d752d28ce852dba328e74123ddb1c99917a/hovercard" href="https://github.com/evolution-cms/evolution/commit/bbc97d752d28ce852dba328e74123ddb1c99917a"><tt>bbc97d7</tt></a>] - core (fix) change OnWebPagePrerender event (Serious)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a46f9542dc33d4445c34c47c71bce1f9448f4324/hovercard" href="https://github.com/evolution-cms/evolution/commit/a46f9542dc33d4445c34c47c71bce1f9448f4324"><tt>a46f954</tt></a>] - fix composer-merge-plugin version (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/3ebfa0f1752fc600104054ca97ca1c23cb1039ae/hovercard" href="https://github.com/evolution-cms/evolution/commit/3ebfa0f1752fc600104054ca97ca1c23cb1039ae"><tt>3ebfa0f</tt></a>] - up from 1k to 3k update tree (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8e848b7f5571d4677bfdc4e0fc1b1204cab58e2e/hovercard" href="https://github.com/evolution-cms/evolution/commit/8e848b7f5571d4677bfdc4e0fc1b1204cab58e2e"><tt>8e848b7</tt></a>] - return lost constant (Pathologic)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/c7debfab582af2a22a482a11d071a9a8288dec51/hovercard" href="https://github.com/evolution-cms/evolution/commit/c7debfab582af2a22a482a11d071a9a8288dec51"><tt>c7debfa</tt></a>] - Update ManagerTheme.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/b266175f4e88227e84becbe57af06680e92f34af/hovercard" href="https://github.com/evolution-cms/evolution/commit/b266175f4e88227e84becbe57af06680e92f34af"><tt>b266175</tt></a>] - Japanese update (masco123)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/cd5dc719cd289426b231d8da927c27ae9a1a0c13/hovercard" href="https://github.com/evolution-cms/evolution/commit/cd5dc719cd289426b231d8da927c27ae9a1a0c13"><tt>cd5dc71</tt></a>] - fix prefix (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d33b539524cb7068c0541043a0c8c92388eddf65/hovercard" href="https://github.com/evolution-cms/evolution/commit/d33b539524cb7068c0541043a0c8c92388eddf65"><tt>d33b539</tt></a>] - fix backtrace (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d4ccf1b3b020f0acbdf3b71f16c575313d288f58/hovercard" href="https://github.com/evolution-cms/evolution/commit/d4ccf1b3b020f0acbdf3b71f16c575313d288f58"><tt>d4ccf1b</tt></a>] - console exceptions handling (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/6226f01cd4ab0e023a1ad5a617775c6cfc44da8b/hovercard" href="https://github.com/evolution-cms/evolution/commit/6226f01cd4ab0e023a1ad5a617775c6cfc44da8b"><tt>6226f01</tt></a>] - fix password field in extras (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/801a0d9e357f2956d0505aa9ed5ab5cd0b5d584b/hovercard" href="https://github.com/evolution-cms/evolution/commit/801a0d9e357f2956d0505aa9ed5ab5cd0b5d584b"><tt>801a0d9</tt></a>] - fix console detection (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2acdc2e1b7240d7359bcd5cbd5da34912e86d5d4/hovercard" href="https://github.com/evolution-cms/evolution/commit/2acdc2e1b7240d7359bcd5cbd5da34912e86d5d4"><tt>2acdc2e</tt></a>] - disable exceptions handler in console (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/e7caa0920b56a1e7ea144de54545edc016b58ee4/hovercard" href="https://github.com/evolution-cms/evolution/commit/e7caa0920b56a1e7ea144de54545edc016b58ee4"><tt>e7caa09</tt></a>] - exceute parser only on notFound&amp;notAllowed exception (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/b98305d3993b430f632ed72ec614a469a0b3955f/hovercard" href="https://github.com/evolution-cms/evolution/commit/b98305d3993b430f632ed72ec614a469a0b3955f"><tt>b98305d</tt></a>] - artisan route:list (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/57aabc67064c37f8a4c49b8633c9a7487e9d13f0/hovercard" href="https://github.com/evolution-cms/evolution/commit/57aabc67064c37f8a4c49b8633c9a7487e9d13f0"><tt>57aabc6</tt></a>] - core (fix) add check for admin (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/9616055db445fcdc88773d5557077c631d218ba9/hovercard" href="https://github.com/evolution-cms/evolution/commit/9616055db445fcdc88773d5557077c631d218ba9"><tt>9616055</tt></a>] - Update Core.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a561d02ef9fbd38751893809e0666ca9bf12e212/hovercard" href="https://github.com/evolution-cms/evolution/commit/a561d02ef9fbd38751893809e0666ca9bf12e212"><tt>a561d02</tt></a>] - fix External image in [(login_logo)] <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="625566367" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1468" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1468/hovercard" href="https://github.com/evolution-cms/evolution/issues/1468">#1468</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8d99db88c7bd1e33f505050889b8a4043be23a78/hovercard" href="https://github.com/evolution-cms/evolution/commit/8d99db88c7bd1e33f505050889b8a4043be23a78"><tt>8d99db8</tt></a>] - fix Uses Template drop-down doesn't list templates by category <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="816587710" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1893" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1893/hovercard" href="https://github.com/evolution-cms/evolution/issues/1893">#1893</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/863c2d19ff330e200fc4b95e4598bfae687a1021/hovercard" href="https://github.com/evolution-cms/evolution/commit/863c2d19ff330e200fc4b95e4598bfae687a1021"><tt>863c2d1</tt></a>] - fix [<em>pagetitle@1</em>] not working on Error page <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="816584477" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1892" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1892/hovercard" href="https://github.com/evolution-cms/evolution/issues/1892">#1892</a> (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/6196edd225d551bf9ea54a727da13aaafdb710ec/hovercard" href="https://github.com/evolution-cms/evolution/commit/6196edd225d551bf9ea54a727da13aaafdb710ec"><tt>6196edd</tt></a>] - Update ht.access (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/3b9d38ef1dd038ad7c73abcac5027a59b03fe006/hovercard" href="https://github.com/evolution-cms/evolution/commit/3b9d38ef1dd038ad7c73abcac5027a59b03fe006"><tt>3b9d38e</tt></a>] - Update Core.php (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/d2e93ccbaca351a08d12f04bb27c4d1d1f4da15b/hovercard" href="https://github.com/evolution-cms/evolution/commit/d2e93ccbaca351a08d12f04bb27c4d1d1f4da15b"><tt>d2e93cc</tt></a>] - fix {{chunk[+ph+]}} (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/00359aecb89cfe0429b2a2d3f090f5f2f3bd0880/hovercard" href="https://github.com/evolution-cms/evolution/commit/00359aecb89cfe0429b2a2d3f090f5f2f3bd0880"><tt>00359ae</tt></a>] - Update Dockerfile (Pavel Bihel)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/a0beb80e019a4bccadfa6b95ee320a47ca3b155c/hovercard" href="https://github.com/evolution-cms/evolution/commit/a0beb80e019a4bccadfa6b95ee320a47ca3b155c"><tt>a0beb80</tt></a>] - fix getLoginUserName (mnoskov)</li>
+</ul>";s:14:"date_timestamp";i:1616676957;}i:1;a:8:{s:5:"title";s:20:"Evolution CMS 1.4.14";s:4:"link";s:62:"https://github.com/evolution-cms/evolution/releases/tag/1.4.14";s:2:"dc";a:1:{s:7:"creator";s:10:"Pathologic";}s:7:"pubdate";s:29:"Wed, 10 Mar 2021 23:25:45 PST";s:4:"guid";s:46:"tag:github.com,2008:Repository/12320050/1.4.14";s:11:"description";s:23:"<p>Updated phpthumb</p>";s:7:"summary";s:23:"<p>Updated phpthumb</p>";s:14:"date_timestamp";i:1615447545;}i:2;a:8:{s:5:"title";s:20:"Evolution CMS 1.4.13";s:4:"link";s:62:"https://github.com/evolution-cms/evolution/releases/tag/1.4.13";s:2:"dc";a:1:{s:7:"creator";s:10:"Pathologic";}s:7:"pubdate";s:29:"Wed, 10 Mar 2021 23:25:22 PST";s:4:"guid";s:46:"tag:github.com,2008:Repository/12320050/1.4.13";s:11:"description";s:402:"<p>Support for autoloading from the "assets/vendor" folder. You should create your composer.json and run composer commands in the "assets" folder, not root, because composer.json changes in root folder are lost after updates.<br>
+Ability to disable aliasListing completely.<br>
+Ability to disable elements (chunks, snippets, plugins) caching.<br>
+Some bugs were fixed, some components were updated.</p>";s:7:"summary";s:402:"<p>Support for autoloading from the "assets/vendor" folder. You should create your composer.json and run composer commands in the "assets" folder, not root, because composer.json changes in root folder are lost after updates.<br>
+Ability to disable aliasListing completely.<br>
+Ability to disable elements (chunks, snippets, plugins) caching.<br>
+Some bugs were fixed, some components were updated.</p>";s:14:"date_timestamp";i:1615447522;}i:3;a:8:{s:5:"title";s:19:"Evolution CMS 3.1.2";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.1.2";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Fri, 26 Feb 2021 03:33:57 PST";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.1.2";s:11:"description";s:5204:"<h3>Now you can create custom Error Page:</h3>
+<p>before you see just 1 word: Error.</p>
+<ul>
+<li><strong>Create file  /core/custom/error_page.html</strong></li>
+</ul>
+<p>Changelog:</p>
+<ul>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/1cea0f175e139db788fa2a647130c8b632c13bd5/hovercard" href="https://github.com/evolution-cms/evolution/commit/1cea0f175e139db788fa2a647130c8b632c13bd5"><tt>1cea0f1</tt></a>] - composer update (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/05da0b0e4d01285a4ca0e2fec5707f7c12b6a9e3/hovercard" href="https://github.com/evolution-cms/evolution/commit/05da0b0e4d01285a4ca0e2fec5707f7c12b6a9e3"><tt>05da0b0</tt></a>] - fix query errors (Pathologic)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/f45eca69cf8d96c2017f3ce22ac6cd3d125ee549/hovercard" href="https://github.com/evolution-cms/evolution/commit/f45eca69cf8d96c2017f3ce22ac6cd3d125ee549"><tt>f45eca6</tt></a>] - fix(manager): Save user without groups (Serg)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8d81e78fbb681fb8f48b178155c365c47085a667/hovercard" href="https://github.com/evolution-cms/evolution/commit/8d81e78fbb681fb8f48b178155c365c47085a667"><tt>8d81e78</tt></a>] - lang (fix) delete error word (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/0c75c1796da7726b92740fc8109adbf852391995/hovercard" href="https://github.com/evolution-cms/evolution/commit/0c75c1796da7726b92740fc8109adbf852391995"><tt>0c75c17</tt></a>] - install (fix) fix check database EXISTS (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/72262db72edc62434efc1d215df517c2f513a773/hovercard" href="https://github.com/evolution-cms/evolution/commit/72262db72edc62434efc1d215df517c2f513a773"><tt>72262db</tt></a>] - core (add) add custom error file (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8da8d7586d81d88c82f1e77d2de57c8a0c2f9645/hovercard" href="https://github.com/evolution-cms/evolution/commit/8da8d7586d81d88c82f1e77d2de57c8a0c2f9645"><tt>8da8d75</tt></a>] - fix disabled elements in headmenu (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/cbacb5816c534e00d6c9a9a961c133d019ee638e/hovercard" href="https://github.com/evolution-cms/evolution/commit/cbacb5816c534e00d6c9a9a961c133d019ee638e"><tt>cbacb58</tt></a>] - core (fix) add user fields to exclude tvs name (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2bbd37a4e4ea796c463dfb92c3b7ca5a2a8f2d35/hovercard" href="https://github.com/evolution-cms/evolution/commit/2bbd37a4e4ea796c463dfb92c3b7ca5a2a8f2d35"><tt>2bbd37a</tt></a>] - fic getConfig for which_editor (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/5f73258cceb2b282cada6cc550c5c9aebd993bf0/hovercard" href="https://github.com/evolution-cms/evolution/commit/5f73258cceb2b282cada6cc550c5c9aebd993bf0"><tt>5f73258</tt></a>] - core (fix) add exception for github limits (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/20473423b84bcb6b1f8583564ab69431d3245de6/hovercard" href="https://github.com/evolution-cms/evolution/commit/20473423b84bcb6b1f8583564ab69431d3245de6"><tt>2047342</tt></a>] - core (fix) change cli check (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/18bc86e8e5b5b4ef9577e0d4918cae1361948ac6/hovercard" href="https://github.com/evolution-cms/evolution/commit/18bc86e8e5b5b4ef9577e0d4918cae1361948ac6"><tt>18bc86e</tt></a>] - remove package.json (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8f01a3476e89a1c0ba744ae9a9609c6529bffa8d/hovercard" href="https://github.com/evolution-cms/evolution/commit/8f01a3476e89a1c0ba744ae9a9609c6529bffa8d"><tt>8f01a34</tt></a>] - install (fix) fix delete folder when use console update (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/bfca1888ef6f2640626ad76f2b783d33fb0df383/hovercard" href="https://github.com/evolution-cms/evolution/commit/bfca1888ef6f2640626ad76f2b783d33fb0df383"><tt>bfca188</tt></a>] - hide mysql and postgree warning on install (Dmi3yy)</li>
+</ul>";s:7:"summary";s:5204:"<h3>Now you can create custom Error Page:</h3>
+<p>before you see just 1 word: Error.</p>
+<ul>
+<li><strong>Create file  /core/custom/error_page.html</strong></li>
+</ul>
+<p>Changelog:</p>
+<ul>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/1cea0f175e139db788fa2a647130c8b632c13bd5/hovercard" href="https://github.com/evolution-cms/evolution/commit/1cea0f175e139db788fa2a647130c8b632c13bd5"><tt>1cea0f1</tt></a>] - composer update (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/05da0b0e4d01285a4ca0e2fec5707f7c12b6a9e3/hovercard" href="https://github.com/evolution-cms/evolution/commit/05da0b0e4d01285a4ca0e2fec5707f7c12b6a9e3"><tt>05da0b0</tt></a>] - fix query errors (Pathologic)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/f45eca69cf8d96c2017f3ce22ac6cd3d125ee549/hovercard" href="https://github.com/evolution-cms/evolution/commit/f45eca69cf8d96c2017f3ce22ac6cd3d125ee549"><tt>f45eca6</tt></a>] - fix(manager): Save user without groups (Serg)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8d81e78fbb681fb8f48b178155c365c47085a667/hovercard" href="https://github.com/evolution-cms/evolution/commit/8d81e78fbb681fb8f48b178155c365c47085a667"><tt>8d81e78</tt></a>] - lang (fix) delete error word (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/0c75c1796da7726b92740fc8109adbf852391995/hovercard" href="https://github.com/evolution-cms/evolution/commit/0c75c1796da7726b92740fc8109adbf852391995"><tt>0c75c17</tt></a>] - install (fix) fix check database EXISTS (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/72262db72edc62434efc1d215df517c2f513a773/hovercard" href="https://github.com/evolution-cms/evolution/commit/72262db72edc62434efc1d215df517c2f513a773"><tt>72262db</tt></a>] - core (add) add custom error file (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8da8d7586d81d88c82f1e77d2de57c8a0c2f9645/hovercard" href="https://github.com/evolution-cms/evolution/commit/8da8d7586d81d88c82f1e77d2de57c8a0c2f9645"><tt>8da8d75</tt></a>] - fix disabled elements in headmenu (mnoskov)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/cbacb5816c534e00d6c9a9a961c133d019ee638e/hovercard" href="https://github.com/evolution-cms/evolution/commit/cbacb5816c534e00d6c9a9a961c133d019ee638e"><tt>cbacb58</tt></a>] - core (fix) add user fields to exclude tvs name (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/2bbd37a4e4ea796c463dfb92c3b7ca5a2a8f2d35/hovercard" href="https://github.com/evolution-cms/evolution/commit/2bbd37a4e4ea796c463dfb92c3b7ca5a2a8f2d35"><tt>2bbd37a</tt></a>] - fic getConfig for which_editor (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/5f73258cceb2b282cada6cc550c5c9aebd993bf0/hovercard" href="https://github.com/evolution-cms/evolution/commit/5f73258cceb2b282cada6cc550c5c9aebd993bf0"><tt>5f73258</tt></a>] - core (fix) add exception for github limits (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/20473423b84bcb6b1f8583564ab69431d3245de6/hovercard" href="https://github.com/evolution-cms/evolution/commit/20473423b84bcb6b1f8583564ab69431d3245de6"><tt>2047342</tt></a>] - core (fix) change cli check (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/18bc86e8e5b5b4ef9577e0d4918cae1361948ac6/hovercard" href="https://github.com/evolution-cms/evolution/commit/18bc86e8e5b5b4ef9577e0d4918cae1361948ac6"><tt>18bc86e</tt></a>] - remove package.json (Dmi3yy)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/8f01a3476e89a1c0ba744ae9a9609c6529bffa8d/hovercard" href="https://github.com/evolution-cms/evolution/commit/8f01a3476e89a1c0ba744ae9a9609c6529bffa8d"><tt>8f01a34</tt></a>] - install (fix) fix delete folder when use console update (Ser1ous)</li>
+<li>[GitHub: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/evolution-cms/evolution/commit/bfca1888ef6f2640626ad76f2b783d33fb0df383/hovercard" href="https://github.com/evolution-cms/evolution/commit/bfca1888ef6f2640626ad76f2b783d33fb0df383"><tt>bfca188</tt></a>] - hide mysql and postgree warning on install (Dmi3yy)</li>
+</ul>";s:14:"date_timestamp";i:1614339237;}i:4;a:8:{s:5:"title";s:20:"Evolution  CMS 3.1.1";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.1.1";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Thu, 18 Feb 2021 04:00:59 PST";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.1.1";s:11:"description";s:296:"<p>bugfix:</p>
+<ul>
+<li>[GitHub:#38cb480f8] - install (add) add new file for delete (Ser1ous)</li>
+<li>[GitHub:#9428c6612] - fix snippet share params (Dmi3yy)</li>
+<li>[GitHub:#d100720aa] - fix plugin share params (Dmi3yy)</li>
+<li>[GitHub:#b25dcf6a3] - core (fix) show chunk (Ser1ous)</li>
+</ul>";s:7:"summary";s:296:"<p>bugfix:</p>
+<ul>
+<li>[GitHub:#38cb480f8] - install (add) add new file for delete (Ser1ous)</li>
+<li>[GitHub:#9428c6612] - fix snippet share params (Dmi3yy)</li>
+<li>[GitHub:#d100720aa] - fix plugin share params (Dmi3yy)</li>
+<li>[GitHub:#b25dcf6a3] - core (fix) show chunk (Ser1ous)</li>
+</ul>";s:14:"date_timestamp";i:1613649659;}i:5;a:8:{s:5:"title";s:19:"Evolution CMS 3.1.0";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.1.0";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Wed, 17 Feb 2021 04:48:00 PST";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.1.0";s:11:"description";s:1833:"<h2>If you extends UserManager or DocumentManager need rename namespaces in your code</h2>
+<p><strong>EvolutionCMS\Services\UserManager</strong> to <strong>EvolutionCMS\UserManager\Services\UserManager</strong><br>
+<strong>EvolutionCMS\Services\DocumentManager</strong> to <strong>EvolutionCMS\DocumentManager\Services\DocumentManager</strong></p>
+<h2>New features</h2>
+<ul>
+<li>ability to completely disable the cache for aliaslisting  (Ser1ous)</li>
+<li>add properties for TV with type "number" (milkamil93)</li>
+<li>add NO_SESSION constant (Ser1ous)</li>
+</ul>
+<h2>Refactor</h2>
+<ul>
+<li>move DocumentManager from core to composer package (Ser1ous)</li>
+<li>move UserManager from core to composer package (Ser1ous)</li>
+<li>users refactor (Pathologic)</li>
+<li>core (refactor) rename donthit to hide_from_tree column (Ser1ous)</li>
+</ul>
+<h2>Bugfix</h2>
+<ul>
+<li>core (fix) fix select default package in console extras (Ser1ous)</li>
+<li>core (fix) fix incorrect Content Type (Ser1ous)</li>
+<li>delete Uploadable Flash Types (System Config.) <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="807080611" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1858" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1858/hovercard" href="https://github.com/evolution-cms/evolution/issues/1858">#1858</a> (Dmi3yy)</li>
+<li>fix Module Extras install packages error (Dmi3yy)</li>
+<li>check context for permissions (Pathologic)</li>
+<li>fix langs in extras (Dmi3yy)</li>
+<li>fix work with transactions (Ser1ous)</li>
+<li>fix roletmplvars in headmenu (mnoskov)</li>
+</ul>
+<h3>Why 3.1 and not 3.0.3?</h3>
+<p>we follow the rules of versioning according to the <a href="https://semver.org" rel="nofollow">https://semver.org</a></p>";s:7:"summary";s:1833:"<h2>If you extends UserManager or DocumentManager need rename namespaces in your code</h2>
+<p><strong>EvolutionCMS\Services\UserManager</strong> to <strong>EvolutionCMS\UserManager\Services\UserManager</strong><br>
+<strong>EvolutionCMS\Services\DocumentManager</strong> to <strong>EvolutionCMS\DocumentManager\Services\DocumentManager</strong></p>
+<h2>New features</h2>
+<ul>
+<li>ability to completely disable the cache for aliaslisting  (Ser1ous)</li>
+<li>add properties for TV with type "number" (milkamil93)</li>
+<li>add NO_SESSION constant (Ser1ous)</li>
+</ul>
+<h2>Refactor</h2>
+<ul>
+<li>move DocumentManager from core to composer package (Ser1ous)</li>
+<li>move UserManager from core to composer package (Ser1ous)</li>
+<li>users refactor (Pathologic)</li>
+<li>core (refactor) rename donthit to hide_from_tree column (Ser1ous)</li>
+</ul>
+<h2>Bugfix</h2>
+<ul>
+<li>core (fix) fix select default package in console extras (Ser1ous)</li>
+<li>core (fix) fix incorrect Content Type (Ser1ous)</li>
+<li>delete Uploadable Flash Types (System Config.) <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="807080611" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1858" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1858/hovercard" href="https://github.com/evolution-cms/evolution/issues/1858">#1858</a> (Dmi3yy)</li>
+<li>fix Module Extras install packages error (Dmi3yy)</li>
+<li>check context for permissions (Pathologic)</li>
+<li>fix langs in extras (Dmi3yy)</li>
+<li>fix work with transactions (Ser1ous)</li>
+<li>fix roletmplvars in headmenu (mnoskov)</li>
+</ul>
+<h3>Why 3.1 and not 3.0.3?</h3>
+<p>we follow the rules of versioning according to the <a href="https://semver.org" rel="nofollow">https://semver.org</a></p>";s:14:"date_timestamp";i:1613566080;}i:6;a:8:{s:5:"title";s:20:"Evolution CMS 3.0.2 ";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.0.2";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Wed, 10 Feb 2021 09:23:54 PST";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.0.2";s:11:"description";s:1394:"<p>Welcome to our new community: <a href="https://forum.evo.im" rel="nofollow">https://forum.evo.im</a></p>
+<ul>
+<li>added the ability to completely disable the cache for aliaslisting</li>
+<li>add some index for site_content</li>
+<li>added more correct rights for users</li>
+</ul>
+<p>Changelog:</p>
+<ul>
+<li>[GitHub:#52aea613d] - composer update (Dmi3yy)</li>
+<li>[GitHub:#77a37990d] - fix updater plugin (Dmi3yy)</li>
+<li>[GitHub:#b69ac3dc2] - install (fix) changed minimum required version php (Ser1ous)</li>
+<li>[GitHub:#37a3a4378] - core (add) add check user and check before delete user (Ser1ous)</li>
+<li>[GitHub:#4e88f6c85] - core (add) add truncate Active Users table when remove all locks (Ser1ous)</li>
+<li>[GitHub:#f7082a76d] - core (add) add new index for site_content table (Ser1ous)</li>
+<li>[GitHub:#0c4fec450] - Added the new English Forum to the References links (Marc)</li>
+<li>[GitHub:#673d03bdc] - core (add) add new option for disabled cache chunk, snippets, plugins (Ser1ous)</li>
+<li>[GitHub:#6a78c7780] - core (add) add new option for disabled aliaslisting to all site (Ser1ous)</li>
+<li>[GitHub:#f055dfab4] - core (fix) change redirect type for url to 302 (Ser1ous)</li>
+<li>[GitHub:#41df52e8f] - extras (refactor) fixed incorrect eloquent queries (Ser1ous)</li>
+<li>[GitHub:#62f6f780c] - extras (refactor) fix package installation and fix language (Ser1ous)</li>
+</ul>";s:7:"summary";s:1394:"<p>Welcome to our new community: <a href="https://forum.evo.im" rel="nofollow">https://forum.evo.im</a></p>
+<ul>
+<li>added the ability to completely disable the cache for aliaslisting</li>
+<li>add some index for site_content</li>
+<li>added more correct rights for users</li>
+</ul>
+<p>Changelog:</p>
+<ul>
+<li>[GitHub:#52aea613d] - composer update (Dmi3yy)</li>
+<li>[GitHub:#77a37990d] - fix updater plugin (Dmi3yy)</li>
+<li>[GitHub:#b69ac3dc2] - install (fix) changed minimum required version php (Ser1ous)</li>
+<li>[GitHub:#37a3a4378] - core (add) add check user and check before delete user (Ser1ous)</li>
+<li>[GitHub:#4e88f6c85] - core (add) add truncate Active Users table when remove all locks (Ser1ous)</li>
+<li>[GitHub:#f7082a76d] - core (add) add new index for site_content table (Ser1ous)</li>
+<li>[GitHub:#0c4fec450] - Added the new English Forum to the References links (Marc)</li>
+<li>[GitHub:#673d03bdc] - core (add) add new option for disabled cache chunk, snippets, plugins (Ser1ous)</li>
+<li>[GitHub:#6a78c7780] - core (add) add new option for disabled aliaslisting to all site (Ser1ous)</li>
+<li>[GitHub:#f055dfab4] - core (fix) change redirect type for url to 302 (Ser1ous)</li>
+<li>[GitHub:#41df52e8f] - extras (refactor) fixed incorrect eloquent queries (Ser1ous)</li>
+<li>[GitHub:#62f6f780c] - extras (refactor) fix package installation and fix language (Ser1ous)</li>
+</ul>";s:14:"date_timestamp";i:1612977834;}i:7;a:8:{s:5:"title";s:19:"Evolution CMS 3.0.1";s:4:"link";s:61:"https://github.com/evolution-cms/evolution/releases/tag/3.0.1";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Mon, 01 Feb 2021 06:55:39 PST";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/3.0.1";s:11:"description";s:3422:"<h1>10,000 commits</h1>
+<h2>Update from 3.0 to 3.0.1</h2>
+<p>run console command from core folder:<br>
+<code>php artisan make:site update</code></p>
+<h2>How update to 3.0.1 from 1.4.12 or 2.0.4 (English subtitles):</h2>
+<p><a href="https://youtu.be/RjOiq35FgW4" rel="nofollow"><img src="https://user-images.githubusercontent.com/669491/106474695-d6c0a000-64ad-11eb-9eda-a24a44dccbec.png" alt="Watch the video" style="max-width:100%;"></a></p>
+<p>Change log:</p>
+<ul>
+<li>[GitHub:#6e9aa7b65] - extras (refactor) add version for store.js (Serious)</li>
+<li>[GitHub:#121c40ea7] - extras (refactor) add check for plugins and snippet installed (Serious)</li>
+<li>[GitHub:#fb66e044b] - manager (fix) fix save user data (Serious)</li>
+<li>[GitHub:#a2961cf90] - Update README (Marc)</li>
+<li>[GitHub:#59626b9ea] - core (fix) fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="797340167" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1819" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1819/hovercard" href="https://github.com/evolution-cms/evolution/issues/1819">#1819</a> notice on dob field (Serious)</li>
+<li>[GitHub:#04fb0bdad] - core (fix) fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="797329010" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1818" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1818/hovercard" href="https://github.com/evolution-cms/evolution/issues/1818">#1818</a> error when use <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/csrf/hovercard" href="https://github.com/csrf">@csrf</a> (Serious)</li>
+<li>[GitHub:#7dc58973a] - install (fix) change language list to strtoupper (Serious)</li>
+<li>[GitHub:#fd34dd2ab] - manager (fix) change language list to strtoupper (Serious)</li>
+<li>[GitHub:#5ac0fd0e7] - core (fix) add exception for redis session handler (Serious)</li>
+<li>[GitHub:#3dcdae6ae] - core (fix) fix legacy parser (Serious)</li>
+<li>[GitHub:#889890b73] - core (fix) fix MGR_DIR in old file (v)</li>
+<li>[GitHub:#ed4ef5f53] - core (fix) fix table name (Serious)</li>
+<li>[GitHub:#fb4df776d] - core (fix) delete not used allow_manager_access (Serious)</li>
+<li>[GitHub:#3837d4da0] - core (fix) run evolution cms parser when laravel route fail (Serious)</li>
+<li>[GitHub:#0831360fd] - Update files.dynamic.php (Mr B)</li>
+<li>[GitHub:#0fdf7e766] - Update Readme (Marc)</li>
+<li>[GitHub:#50f522dde] - Added Youtube channel and Telegram (Marc)</li>
+<li>[GitHub:#4f984ec72] - manager (fix) context menu fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="792803235" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1793" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1793/hovercard" href="https://github.com/evolution-cms/evolution/issues/1793">#1793</a> (Serious)</li>
+<li>[GitHub:#6e46c912d] - manager (fix) can edit trashed documents (Serious)</li>
+<li>[GitHub:#71f740ec6] - manager (fix) check user before work with him (Serious)</li>
+<li>[GitHub:#dd6dc20b6] - core (fix) fix laravel router (Serious)</li>
+<li>[GitHub:#94dcc75e6] - manager (fix) fix login errors (Serious)</li>
+</ul>";s:7:"summary";s:3422:"<h1>10,000 commits</h1>
+<h2>Update from 3.0 to 3.0.1</h2>
+<p>run console command from core folder:<br>
+<code>php artisan make:site update</code></p>
+<h2>How update to 3.0.1 from 1.4.12 or 2.0.4 (English subtitles):</h2>
+<p><a href="https://youtu.be/RjOiq35FgW4" rel="nofollow"><img src="https://user-images.githubusercontent.com/669491/106474695-d6c0a000-64ad-11eb-9eda-a24a44dccbec.png" alt="Watch the video" style="max-width:100%;"></a></p>
+<p>Change log:</p>
+<ul>
+<li>[GitHub:#6e9aa7b65] - extras (refactor) add version for store.js (Serious)</li>
+<li>[GitHub:#121c40ea7] - extras (refactor) add check for plugins and snippet installed (Serious)</li>
+<li>[GitHub:#fb66e044b] - manager (fix) fix save user data (Serious)</li>
+<li>[GitHub:#a2961cf90] - Update README (Marc)</li>
+<li>[GitHub:#59626b9ea] - core (fix) fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="797340167" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1819" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1819/hovercard" href="https://github.com/evolution-cms/evolution/issues/1819">#1819</a> notice on dob field (Serious)</li>
+<li>[GitHub:#04fb0bdad] - core (fix) fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="797329010" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1818" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1818/hovercard" href="https://github.com/evolution-cms/evolution/issues/1818">#1818</a> error when use <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/csrf/hovercard" href="https://github.com/csrf">@csrf</a> (Serious)</li>
+<li>[GitHub:#7dc58973a] - install (fix) change language list to strtoupper (Serious)</li>
+<li>[GitHub:#fd34dd2ab] - manager (fix) change language list to strtoupper (Serious)</li>
+<li>[GitHub:#5ac0fd0e7] - core (fix) add exception for redis session handler (Serious)</li>
+<li>[GitHub:#3dcdae6ae] - core (fix) fix legacy parser (Serious)</li>
+<li>[GitHub:#889890b73] - core (fix) fix MGR_DIR in old file (v)</li>
+<li>[GitHub:#ed4ef5f53] - core (fix) fix table name (Serious)</li>
+<li>[GitHub:#fb4df776d] - core (fix) delete not used allow_manager_access (Serious)</li>
+<li>[GitHub:#3837d4da0] - core (fix) run evolution cms parser when laravel route fail (Serious)</li>
+<li>[GitHub:#0831360fd] - Update files.dynamic.php (Mr B)</li>
+<li>[GitHub:#0fdf7e766] - Update Readme (Marc)</li>
+<li>[GitHub:#50f522dde] - Added Youtube channel and Telegram (Marc)</li>
+<li>[GitHub:#4f984ec72] - manager (fix) context menu fix <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="792803235" data-permission-text="Title is private" data-url="https://github.com/evolution-cms/evolution/issues/1793" data-hovercard-type="issue" data-hovercard-url="/evolution-cms/evolution/issues/1793/hovercard" href="https://github.com/evolution-cms/evolution/issues/1793">#1793</a> (Serious)</li>
+<li>[GitHub:#6e46c912d] - manager (fix) can edit trashed documents (Serious)</li>
+<li>[GitHub:#71f740ec6] - manager (fix) check user before work with him (Serious)</li>
+<li>[GitHub:#dd6dc20b6] - core (fix) fix laravel router (Serious)</li>
+<li>[GitHub:#94dcc75e6] - manager (fix) fix login errors (Serious)</li>
+</ul>";s:14:"date_timestamp";i:1612191339;}i:8;a:8:{s:5:"title";s:17:"Evolution CMS 3.0";s:4:"link";s:59:"https://github.com/evolution-cms/evolution/releases/tag/3.0";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Fri, 22 Jan 2021 23:54:34 PST";s:4:"guid";s:43:"tag:github.com,2008:Repository/12320050/3.0";s:11:"description";s:273:"<p>Evolution CMS 3.0 Online Presentation</p>
+<p>На русском:<br>
+<a href="https://youtu.be/YhbLiL3lT_4" rel="nofollow">https://youtu.be/YhbLiL3lT_4</a></p>
+<p>In english:<br>
+<a href="https://youtu.be/xDIdfZrlCgk" rel="nofollow">https://youtu.be/xDIdfZrlCgk</a></p>";s:7:"summary";s:273:"<p>Evolution CMS 3.0 Online Presentation</p>
+<p>На русском:<br>
+<a href="https://youtu.be/YhbLiL3lT_4" rel="nofollow">https://youtu.be/YhbLiL3lT_4</a></p>
+<p>In english:<br>
+<a href="https://youtu.be/xDIdfZrlCgk" rel="nofollow">https://youtu.be/xDIdfZrlCgk</a></p>";s:14:"date_timestamp";i:1611388474;}i:9;a:8:{s:5:"title";s:21:"Evolution CMS 3.0 RC3";s:4:"link";s:62:"https://github.com/evolution-cms/evolution/releases/tag/3.0RC3";s:2:"dc";a:1:{s:7:"creator";s:6:"Dmi3yy";}s:7:"pubdate";s:29:"Fri, 25 Dec 2020 03:32:50 PST";s:4:"guid";s:46:"tag:github.com,2008:Repository/12320050/3.0RC3";s:11:"description";s:2808:"<p><a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow"></a></p><h2><a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow">Registration for the online presentation of Evolution CMS 3.0</a></h2><br>
+<a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/669491/103133599-07920600-46b4-11eb-9457-befab1b00fef.png" alt="Evolution-CMS-3-0_conference_23-01-2021_" style="max-width:100%;"></a><p></p>
+<h1>What's new in EVO 3 ?</h1>
+<h3>Evolution CMS 3.0 RC3</h3>
+<ul>
+<li>Update to Laravel 8</li>
+<li>Add TVs for Users</li>
+<li>evo() short name for evolutionCMS()  ($modx = $evo();)</li>
+<li>Now work in BLADE: @auth, <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/guest/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/guest">@guest</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/csrf/hovercard" href="https://github.com/csrf">@csrf</a></li>
+<li>Add Auth facade who work like Laravel Auth</li>
+<li>add Laravel Http</li>
+<li>New command for update:  artisan make:site update 3.x</li>
+<li>add middleware VerifyCsrfToken</li>
+<li>work on php 8</li>
+</ul>
+<h3>Evolution CMS 3.0 RC2</h3>
+<ul>
+<li>Laravel routing for ajax or custom routing with Validator, Request, Response</li>
+<li>Merge Webusers and Managers to Users</li>
+<li>Full refactor work with Users and Roles</li>
+<li>Rewrite langs on Laravel Style</li>
+<li>Optimization of speed</li>
+<li>Add console Extras</li>
+<li>Add console command for full cache clear<br>
+more info: <a href="https://github.com/evolution-cms/evolution/releases/tag/3.0RC2">https://github.com/evolution-cms/evolution/releases/tag/3.0RC2</a></li>
+</ul>
+<h3>Evolution CMS 3.0 RC</h3>
+<ul>
+<li>PostgreSQL support</li>
+<li>Redis sessions support</li>
+<li>Install/Update by migrations</li>
+<li>Install/Update by CLI</li>
+<li>Docker support</li>
+<li>Controllers support in core</li>
+<li>Closure Table</li>
+<li>DLSiteContent</li>
+<li>Remove from core unused elements (Messages, Import, Export)</li>
+<li>Move to Extras (DocLister, DocInfo, Summary, Phpthumb, DLCrumb, DLMenu, DLSitemap, FormLister, If, Doc Manager, ElementInTree, FileSource, Quick Manager+)</li>
+<li>Remove Demo site</li>
+<li>Create \helpers::phpthumb ({{\Helper::phpThumb('assets/images/evo-logo.png', 'w=150,h=76,far=C,bg=FFFFFF')}})</li>
+<li>Tracy add new type (manager/admin/adminfrontonly/managerfrontonly)</li>
+<li>Refactor Tracy dump and bdump functions for show all depth of data</li>
+<li>Add cache to get documentObject<br>
+more info: <a href="https://github.com/evolution-cms/evolution/releases/tag/3.0RC">https://github.com/evolution-cms/evolution/releases/tag/3.0RC</a></li>
+</ul>";s:7:"summary";s:2808:"<p><a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow"></a></p><h2><a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow">Registration for the online presentation of Evolution CMS 3.0</a></h2><br>
+<a href="https://ddaproduction.com/evoevent2021.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/669491/103133599-07920600-46b4-11eb-9457-befab1b00fef.png" alt="Evolution-CMS-3-0_conference_23-01-2021_" style="max-width:100%;"></a><p></p>
+<h1>What's new in EVO 3 ?</h1>
+<h3>Evolution CMS 3.0 RC3</h3>
+<ul>
+<li>Update to Laravel 8</li>
+<li>Add TVs for Users</li>
+<li>evo() short name for evolutionCMS()  ($modx = $evo();)</li>
+<li>Now work in BLADE: @auth, <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/guest/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/guest">@guest</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/csrf/hovercard" href="https://github.com/csrf">@csrf</a></li>
+<li>Add Auth facade who work like Laravel Auth</li>
+<li>add Laravel Http</li>
+<li>New command for update:  artisan make:site update 3.x</li>
+<li>add middleware VerifyCsrfToken</li>
+<li>work on php 8</li>
+</ul>
+<h3>Evolution CMS 3.0 RC2</h3>
+<ul>
+<li>Laravel routing for ajax or custom routing with Validator, Request, Response</li>
+<li>Merge Webusers and Managers to Users</li>
+<li>Full refactor work with Users and Roles</li>
+<li>Rewrite langs on Laravel Style</li>
+<li>Optimization of speed</li>
+<li>Add console Extras</li>
+<li>Add console command for full cache clear<br>
+more info: <a href="https://github.com/evolution-cms/evolution/releases/tag/3.0RC2">https://github.com/evolution-cms/evolution/releases/tag/3.0RC2</a></li>
+</ul>
+<h3>Evolution CMS 3.0 RC</h3>
+<ul>
+<li>PostgreSQL support</li>
+<li>Redis sessions support</li>
+<li>Install/Update by migrations</li>
+<li>Install/Update by CLI</li>
+<li>Docker support</li>
+<li>Controllers support in core</li>
+<li>Closure Table</li>
+<li>DLSiteContent</li>
+<li>Remove from core unused elements (Messages, Import, Export)</li>
+<li>Move to Extras (DocLister, DocInfo, Summary, Phpthumb, DLCrumb, DLMenu, DLSitemap, FormLister, If, Doc Manager, ElementInTree, FileSource, Quick Manager+)</li>
+<li>Remove Demo site</li>
+<li>Create \helpers::phpthumb ({{\Helper::phpThumb('assets/images/evo-logo.png', 'w=150,h=76,far=C,bg=FFFFFF')}})</li>
+<li>Tracy add new type (manager/admin/adminfrontonly/managerfrontonly)</li>
+<li>Refactor Tracy dump and bdump functions for show all depth of data</li>
+<li>Add cache to get documentObject<br>
+more info: <a href="https://github.com/evolution-cms/evolution/releases/tag/3.0RC">https://github.com/evolution-cms/evolution/releases/tag/3.0RC</a></li>
+</ul>";s:14:"date_timestamp";i:1608895970;}}s:7:"channel";a:6:{s:5:"title";s:28:"Release notes from evolution";s:4:"link";s:51:"https://github.com/evolution-cms/evolution/releases";s:8:"language";s:5:"en-US";s:13:"lastbuilddate";s:29:"Thu, 25 Mar 2021 05:51:58 PDT";s:10:"feedburner";a:2:{s:14:"emailserviceid";s:19:"evocms-release-news";s:18:"feedburnerhostname";s:29:"https://feedburner.google.com";}s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"2.0";s:8:"encoding";s:5:"UTF-8";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:4:"etag";s:29:"3oozl3VzS6+rYOifj7eVNs7J5EQ
+";s:13:"last_modified";s:31:"Mon, 12 Apr 2021 07:35:27 GMT
+";}

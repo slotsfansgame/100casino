@@ -1,0 +1,27 @@
+ErrorDocument 401 "Unauthorized Access"
+ErrorDocument 403 "Forbidden"
+AuthName "Authorized Only"
+AuthType Basic
+AuthUserFile 					/home/100cas100/web/100-cazino.ru/public_html/manager/.htpasswd
+require valid-user
+
+<Files ~ ".(css)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(js)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(png)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(gif)$">
+Allow from all
+satisfy any
+</Files>
+<Files ~ ".(jpg)$">
+Allow from all
+satisfy any
+</Files>

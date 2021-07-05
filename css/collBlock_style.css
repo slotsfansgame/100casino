@@ -1,0 +1,26 @@
+.block-closed {
+	height: 210px; /*размер скрытого блока*/
+	position: relative;
+	overflow: hidden;
+}
+
+.block-opened {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.block-button-wrap {
+	bottom: 0; 
+	position: absolute; 
+	padding: 10px 0 5px;
+	text-align: center;
+	width:100%;
+	background: linear-gradient(to top,red 0%,red 20%,transparent 100%);
+}
+
+.block-button {
+	border:none;
+	font-size: 20px;
+	background: 0 0;
+}
